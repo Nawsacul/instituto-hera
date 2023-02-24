@@ -1,7 +1,11 @@
+<!DOCTYPE html>
+<html>
+
 <head>
 	<script src="https://kit.fontawesome.com/dbe608be9d.js" crossorigin="anonymous"></script>
 </head>
 
+<body>
 <h1><i class="fas fa-hospital"></i> Instituto Hera</h1>
 
 <h2><i class="fas fa-info-circle"></i> Descrição</h2>
@@ -46,3 +50,5 @@
 	<li>Aline Fabienski- Designer</li>
 	<li>Lucas Queiroz - Gerente de projeto e Desenvolvedor</li>
 </ul>
+</body>
+</html>
