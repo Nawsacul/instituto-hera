@@ -42,12 +42,3 @@
 	<li>Aline Fabienski- Designer</li>
 	<li>Lucas Queiroz - Gerente de projeto e Desenvolvedor</li>
 </ul>
-
-<ul>
-	<li>Willian Monteiro - Desenvolvedor: <span class="emoji">&#x1F468;&#x200D;&#x1F4BB;</span> ou <span class="emoji">&#x1F468;&#x200D;&#x1F680;</span></li>
-	<li>Paulo Sampaio - Desenvolvedor: <span class="emoji">&#x1F468;&#x200D;&#x1F4BB;</span> ou <span class="emoji">&#x1F468;&#x200D;&#x1F680;</span></li>
-	<li>Matheus Gabriel - Desenvolvedor: <span class="emoji">&#x1F468;&#x200D;&#x1F4BB;</span> ou <span class="emoji">&#x1F468;&#x200D;&#x1F680;</span></li>
-	<li>Gustavo Guga - Desenvolvedor: <span class="emoji">&#x1F468;&#x200D;&#x1F4BB;</span> ou <span class="emoji">&#x1F468;&#x200D;&#x1F680;</span></li>
-	<li>Aline Fabienski - Designer: <span class="emoji">&#x1F469;&#x200D;&#x1F3A8;</span> ou <span class="emoji">&#x1F469;&#x200D;&#x1F4BC;</span></li>
-	<li>Lucas Queiroz - Gerente de projeto e Desenvolvedor: <span class="emoji">&#x1F464;&#x200D;&#x1F4BB;</span> ou <span class="emoji">&#x1F468;&#x200D;&#x1F4BC;</span></li>
-</ul>
