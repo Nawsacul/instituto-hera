@@ -1,5 +1,5 @@
 <head>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-y4H4oWl5gKS+J7bOaQkKPhmWJwOeRmO5ZIz+fxGqJmb0zvXFTJyPIpPK1bhUtq3s" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/dbe608be9d.js" crossorigin="anonymous"></script>
 </head>
 
 <h1><i class="fas fa-hospital"></i> Instituto Hera</h1>
