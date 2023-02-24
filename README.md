@@ -1,4 +1,4 @@
-Instituto Hera
+#Instituto Hera
 Este é o repositório do projeto do site do Instituto Hera, que fornece serviços de odontologia e medicina, com foco em exames de imagem. O site tem como objetivo fornecer informações sobre o Instituto Hera e redirecionar os interessados para entrar em contato via whatsapp para marcar consultas ou obter resultados de exames.
 
 Tecnologias utilizadas
@@ -19,4 +19,4 @@ Como contribuir para o projeto
 Este é um projeto fechado e será desenvolvido apenas pela equipe responsável. Não há contribuições externas previstas.
 
 Contato
-Para obter mais informações sobre o Instituto Hera, visite nosso site em www.institutohera.com.br ou entre em contato via WhatsApp pelo número (XX) XXXX-XXXX.
+Grupo do whatsapp Projeto .
