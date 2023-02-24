@@ -1,4 +1,4 @@
-<h1>Instituto Hera</h1>
+<h1 style="font-weight= bold;">Instituto Hera</h1>
 Este é o repositório do projeto do site do Instituto Hera, que fornece serviços de odontologia e medicina, com foco em exames de imagem. O site tem como objetivo fornecer informações sobre o Instituto Hera e redirecionar os interessados para entrar em contato via whatsapp para marcar consultas ou obter resultados de exames.
 
 Tecnologias utilizadas
