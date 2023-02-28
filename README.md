@@ -16,7 +16,7 @@
 <h2><span class="emoji">&#x25B6;</span> Como executar o projeto localmente</h2>
 
 <ol>
-	<li>Faça um clone do repositório para sua máquina local: <code>git clone &lt;https://github.com/Nawsacul/instituto-hera.git&gt;</code>.</li>
+	<li>Faça um clone do repositório para sua máquina local: <code>git clone https://github.com/Nawsacul/instituto-hera.git</code>.</li>
 	<li>Abra o arquivo index.html no seu navegador para visualizar o site.</li>
 	<li>Para fazer alterações no código, abra o projeto em seu editor de código preferido e faça as alterações necessárias.</li>
 	<li>Salve as alterações e atualize a página no navegador para ver as mudanças.</li>
