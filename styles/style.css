@@ -1,0 +1,340 @@
+/* HERO SECTION ↓↓ */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mockLogo {
+    display: block;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    width: 125px;
+    height: 48px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.menu li:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    width: 125px;
+    height: 48px;
+}
+
+.hero {
+    padding-top: 40px;
+}
+
+.heroInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 64px 0;
+}
+
+.heroTexts h1 {
+    font-weight: 700;
+    font-size: 48px;
+    width: 416px;
+    margin-bottom: 8px;
+}
+
+.heroTexts p {
+    font-weight: 500;
+    color: #8E8B8B;
+    width: 416px;
+}
+
+.heroTexts button {
+    background-color: #D9D9D9;
+    border: none;
+    width: 170px;
+    height: 51px;
+    margin-top: 40px;
+    border-radius: 8px;
+    font-weight: 400;
+}
+
+.mockImg01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    width: 510.93px;
+    height: 352px;
+    margin-right: -90px;
+}
+
+/* SERVICES SECTION ↓↓ */
+
+.services {
+    background-color: #EEEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0;
+}
+
+.services h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.services p {
+    font-weight: 500;
+    color: #8E8B8B;
+    max-width: 848px;
+    text-align: center;
+    margin: 48px 0;
+}
+
+.services ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.services ul li {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* PRICE SECTION ↓↓ */
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.priceTexts h2 {
+    font-weight: 700;
+    font-size: 32px;
+    width: 416px;
+}
+
+.priceTexts p {
+    color: #8E8B8B;
+    font-weight: 500;
+    width: 416px;
+    margin-top: 24px;
+    margin-bottom: 35px;
+}
+
+.priceTexts button {
+    background-color: #D9D9D9;
+    border: none;
+    width: 170px;
+    height: 51px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+.mockImg02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    width: 412px;
+    height: 283.83px;
+}
+
+/* CLINICAL STEFF SECTION ↓↓ */
+
+.clinicalStaff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0;
+}
+
+.clinicalStaff h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 64px;
+}
+
+.clinicalStaff ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.clinicalStaff ul li {
+    background-color: #EEEBEB;
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* EXAMS SECTION ↓↓ */
+
+.exams {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.examsTexts h2 {
+    font-weight: 700;
+    font-size: 32px;
+    width: 416px;
+}
+
+.examsTexts p {
+    color: #8E8B8B;
+    font-weight: 500;
+    width: 416px;
+    margin-top: 24px;
+    margin-bottom: 35px;
+}
+
+.examsTexts button {
+    background-color: #D9D9D9;
+    border: none;
+    width: 170px;
+    height: 51px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+.mockImg03 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    width: 412px;
+    height: 283.83px;
+}
+
+/* VISIT US SECTION ↓↓ */
+
+.visitUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7E6E6;
+    padding: 64px 0;
+}
+
+.visitUs h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.visitUs p {
+    padding: 48px 0;
+}
+
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.contactContainer ul {
+    background-color: white;
+    list-style: none;
+    border-radius: 24px;
+    padding: 40px 32px;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+    width: 342px;
+}
+
+.contactContainer ul li {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.contactContainer ul li img {
+    background-color: #D9D9D9;
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+}
+
+.contactContainer ul li div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactContainer ul li div span {
+    padding-bottom: 24px;
+}
+
+.contactContainer iframe {
+    border-radius: 24px;
+}
+
+/* FOOTER SECTION ↓↓ */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 24px 0 48px 0;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0 19px 0;
+    gap: 21px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 16px;
+}
+
+footer ul li:last-child {
+    font-weight: 700;
+}
+
+.insta {
+    width: 18px;
+    height: 18px;
+}
+
+.face {
+    width: 18px;
+    height: 18px;
+}

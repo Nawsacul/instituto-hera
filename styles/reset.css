@@ -1,0 +1,26 @@
+:root {
+    --primaira: #FDFCF4;
+
+    --secundaria900: #2D3A1D;
+    --secundaria700: #4A6438;
+    --secundaria400: #6B915D;
+    --secundaria200: #9EBD97;
+    --secundaria50: #E5EEE5;
+
+    --terciaria: #955731;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 0 90px;
+}
