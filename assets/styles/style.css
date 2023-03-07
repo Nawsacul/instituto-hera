@@ -1,78 +1,119 @@
+/* ROOT SECTION ↓↓ */
+
+:root {
+    --primaria: #FDFCF4;
+
+    --secundaria900: #2D3A1D;
+    --secundaria700: #4A6438;
+    --secundaria400: #6B915D;
+    --secundaria200: #9EBD97;
+    --secundaria50: #E5EEE5;
+
+    --terciaria: #955731;
+
+    --preto: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 0 5.625rem; /* convertendo 90px para rem */
+}
+
 /* HERO SECTION ↓↓ */
 
-nav {
+.hero {
+    padding-top: 2.5rem; /* convertendo 40px para rem */
+}
+
+.hero__nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
 }
 
-.mockLogo {
+.nav__logo {
     display: block;
     background-color: #D9D9D9;
-    border-radius: 8px;
-    width: 125px;
-    height: 48px;
+    border-radius: 0.5rem; /* convertendo 8px para rem */
+    width: 7.8125rem; /* convertendo 125px para rem */
+    height: 3rem; /* convertendo 48px para rem */
 }
 
-.menu {
-    list-style: none;
+.nav__menu {
     display: flex;
     align-items: center;
     gap: 24px;
 }
 
-.menu li:last-child {
+.menu__link {
+    color: var(--preto);
+}
+
+.menu__link--agendar {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #D9D9D9;
-    border-radius: 8px;
-    width: 125px;
-    height: 48px;
+    border-radius: 0.5rem; /* convertendo 8px para rem */
+    width: 7.8125rem; /* convertendo 125px para rem */
+    height: 3rem; /* convertendo 48px para rem */
 }
 
-.hero {
-    padding-top: 40px;
-}
 
-.heroInfo {
+.hero__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 64px 0;
+    margin: 4em 0; /* convertendo 64px para rem */
 }
 
-.heroTexts h1 {
+.hero__content{
+    margin-left: 5.3125rem; /* convertendo 85px para rem */
+}
+
+.content__title {
     font-weight: 700;
-    font-size: 48px;
-    width: 416px;
-    margin-bottom: 8px;
+    font-size: 3rem; /* convertendo 48px para rem */
+    max-width: 26rem; /* convertendo 416px para rem */
+    margin-bottom: 0.5rem; /* convertendo 8px para rem */
 }
 
-.heroTexts p {
+.content__description {
     font-weight: 500;
     color: #8E8B8B;
-    width: 416px;
+    width: 26rem; /* convertendo 416px para rem */
 }
 
-.heroTexts button {
+.content__button {
     background-color: #D9D9D9;
     border: none;
-    width: 170px;
-    height: 51px;
-    margin-top: 40px;
-    border-radius: 8px;
+    width: 10.625rem; /* convertendo 170px para rem */
+    height: 3.188rem; /* convertendo 51px para rem */
+    margin-top: 2.5rem; /* convertendo 40px para rem */
+    border-radius: 0.5rem; /* convertendo 8px para rem */
     font-weight: 400;
 }
 
-.mockImg01 {
+.hero__image {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #D9D9D9;
-    width: 510.93px;
-    height: 352px;
-    margin-right: -90px;
+    width: 31.93rem; /* convertendo 510.93px para rem */
+    height: 22rem; /* convertendo 352px para rem */
+    /* margin-right: -90px; */
 }
 
 /* SERVICES SECTION ↓↓ */
@@ -83,38 +124,38 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 64px 0;
+    padding: 4em 0;
 }
 
-.services h2 {
-    font-size: 40px;
+.services__title {
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
-.services p {
+.services__description {
     font-weight: 500;
     color: #8E8B8B;
-    max-width: 848px;
+    max-width: 53rem;
     text-align: center;
-    margin: 48px 0;
+    margin: 3em 0;
 }
 
-.services ul {
+.services__list {
     display: flex;
     list-style: none;
-    gap: 16px;
+    gap: 1rem;
 }
 
-.services ul li {
+.services__item {
     background-color: white;
-    width: 200px;
-    height: 200px;
-    border-radius: 24px;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 /* PRICE SECTION ↓↓ */
@@ -183,8 +224,8 @@ nav {
 
 .clinicalStaff ul li {
     background-color: #EEEBEB;
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
     border-radius: 24px;
     display: flex;
     align-items: center;
