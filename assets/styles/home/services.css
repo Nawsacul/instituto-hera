@@ -1,0 +1,41 @@
+/* servicos SECTION ↓↓ */
+
+.servicos {
+    background-color: #EEEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 0;
+}
+
+.servicos__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.servicos__description {
+    font-weight: 500;
+    color: #8E8B8B;
+    max-width: 53rem;
+    text-align: center;
+    margin: 3em 0;
+}
+
+.servicos__list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.servicos__item {
+    background-color: white;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
