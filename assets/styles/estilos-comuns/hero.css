@@ -1,85 +1,84 @@
 /* HERO SECTION ↓↓ */
 
 .hero {
-    padding-top: 2.5rem; /* convertendo 40px para rem */
+  padding-top: 2.5rem; /* convertendo 40px para rem */
 }
 
 .hero__nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .nav__logo {
-    display: block;
-    background-color: #D9D9D9;
-    border-radius: 0.5rem; /* convertendo 8px para rem */
-    width: 7.8125rem; /* convertendo 125px para rem */
-    height: 3rem; /* convertendo 48px para rem */
+  display: block;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem; /* convertendo 8px para rem */
+  width: 7.8125rem; /* convertendo 125px para rem */
+  height: 3rem; /* convertendo 48px para rem */
 }
 
 .nav__menu {
-    display: flex;
-    align-items: center;
-    gap: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .menu__link {
-    color: var(--preto);
+  color: var(--preto);
 }
 
 .menu__link--agendar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #D9D9D9;
-    border-radius: 0.5rem; /* convertendo 8px para rem */
-    width: 7.8125rem; /* convertendo 125px para rem */
-    height: 3rem; /* convertendo 48px para rem */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem; /* convertendo 8px para rem */
+  width: 7.8125rem; /* convertendo 125px para rem */
+  height: 3rem; /* convertendo 48px para rem */
 }
-
 
 .hero__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 4em 0; /* convertendo 64px para rem */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4em 0; /* convertendo 64px para rem */
 }
 
-.hero__content{
-    margin-left: 5.3125rem; /* convertendo 85px para rem */
+.hero__content {
+  margin-left: 5.3125rem; /* convertendo 85px para rem */
 }
 
 .content__title {
-    font-weight: 700;
-    font-size: 3rem; /* convertendo 48px para rem */
-    max-width: 26rem; /* convertendo 416px para rem */
-    margin-bottom: 0.5rem; /* convertendo 8px para rem */
+  font-weight: 700;
+  font-size: 3rem; /* convertendo 48px para rem */
+  max-width: 26rem; /* convertendo 416px para rem */
+  margin-bottom: 0.5rem; /* convertendo 8px para rem */
 }
 
 .content__description {
-    font-weight: 500;
-    color: #8E8B8B;
-    width: 26rem; /* convertendo 416px para rem */
+  font-weight: 500;
+  color: #8e8b8b;
+  width: 26rem; /* convertendo 416px para rem */
 }
 
 .content__button {
-    background-color: #D9D9D9;
-    border: none;
-    width: 10.625rem; /* convertendo 170px para rem */
-    height: 3.188rem; /* convertendo 51px para rem */
-    margin-top: 2.5rem; /* convertendo 40px para rem */
-    border-radius: 0.5rem; /* convertendo 8px para rem */
-    font-weight: 400;
+  background-color: #d9d9d9;
+  border: none;
+  width: 10.625rem; /* convertendo 170px para rem */
+  height: 3.188rem; /* convertendo 51px para rem */
+  margin-top: 2.5rem; /* convertendo 40px para rem */
+  border-radius: 0.5rem; /* convertendo 8px para rem */
+  font-weight: 400;
+  cursor: pointer;
 }
 
 .hero__image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #D9D9D9;
-    width: 31.93rem; /* convertendo 510.93px para rem */
-    height: 22rem; /* convertendo 352px para rem */
-    /* margin-right: -90px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  width: 31.93rem; /* convertendo 510.93px para rem */
+  height: 22rem; /* convertendo 352px para rem */
+  /* margin-right: -90px; */
 }

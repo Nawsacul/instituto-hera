@@ -29,6 +29,7 @@
   height: 3.18rem;
   font-weight: 400;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .price__image {
