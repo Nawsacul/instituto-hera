@@ -103,6 +103,7 @@ section {
 .contact__container {
   background-color: white;
   list-style: none;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
   border-radius: 1.5rem;
   padding: 2.5rem 2rem;
   gap: 3rem;
@@ -134,7 +135,8 @@ section {
 }
 
 .contact__map {
-  border-radius: 0.9rem;
+  border-radius: 1.5rem;
+  box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.1);
 }
 
 /* FOOTER SECTION ↓↓ */
@@ -182,4 +184,32 @@ section {
   width: 1.125rem;
   height: 1.125rem;
   cursor: pointer;
+}
+
+/* FOOTER RESPONSIVO Mobile/Tablet ↓↓ */
+
+@media (max-width: 768px) {
+  .endpage {
+    flex-direction: column;
+    padding: 1.25rem 0;
+  }
+
+  .endpage__contact {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .endpage__text {
+    font-size: 1rem;
+    padding: 0.313rem 0.625rem;
+  }
+
+  .endpage__text--agendar {
+    padding: 0.313rem 0.625rem;
+  }
+
+  .endpage__icons {
+    margin-top: 1.25rem;
+    justify-content: center;
+  }
 }
