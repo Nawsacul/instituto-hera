@@ -111,13 +111,13 @@ section {
   width: 21.37rem;
 }
 
-.contact__container--info {
+.contact__item {
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
 
-.contact__container--info-img {
+.contact__image {
   background-color: #d9d9d9;
   border-radius: 100%;
   width: 4rem;
@@ -129,12 +129,12 @@ section {
   flex-direction: column;
 }
 
-.contact__text--span {
+.contact__span {
   padding-bottom: 1.5rem;
 }
 
-.contact__text--iframe {
-  border-radius: 1.5rem;
+.contact__map {
+  border-radius: 0.9rem;
 }
 
 /* FOOTER SECTION ↓↓ */
