@@ -26,6 +26,7 @@
   font-weight: 500;
   color: #8e8b8b;
   max-width: 26rem; /* convertendo 416px para rem */
+  line-height: 19px;
 }
 
 .content__button {

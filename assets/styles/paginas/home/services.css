@@ -20,6 +20,7 @@
     max-width: 53rem;
     text-align: center;
     margin: 3em 0;
+    line-height: 19px;
 }
 
 .servicos__list {
@@ -47,6 +48,7 @@
 
     .servicos__title {
         text-align: center;
+        font-size: 2rem;
     }
 
     .servicos__description {

@@ -18,4 +18,8 @@
   .clinicalStaff {
     padding-bottom: 3rem;
   }
+
+  .clinicalStaff__title {
+    font-size: 2rem;
+  }
 }
