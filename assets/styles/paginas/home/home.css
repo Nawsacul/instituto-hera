@@ -1,7 +1,8 @@
 @import url(../../style.css);
-@import url(../../estilos-comuns/carousel.css);
+@import url(../../estilos-comuns/navbar.css);
 @import url(../../estilos-comuns/hero.css);
+@import url(../../estilos-comuns/carousel.css);
 @import url(services.css);
 @import url(price.css);
 @import url(clinicalStaff.css);
-@import url(../../../dist/hambuger/hamburguer.css);
+@import url(../../../dist/hambuger/hamburger.css);

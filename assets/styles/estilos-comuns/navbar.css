@@ -1,0 +1,99 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar__logo {
+  display: block;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem; /* convertendo 8px para rem */
+  width: 7.8125rem; /* convertendo 125px para rem */
+  height: 3rem; /* convertendo 48px para rem */
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.menu__link {
+  color: var(--preto);
+}
+
+.menu__link--agendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem; /* convertendo 8px para rem */
+  width: 7.8125rem; /* convertendo 125px para rem */
+  height: 3rem; /* convertendo 48px para rem */
+}
+
+.hamburger {
+  visibility: hidden;
+}
+
+.navbar__input-jogaLonge {
+  position: absolute;
+  z-index: -9999;
+  left: -9999999999999px;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    justify-content: space-between;
+    margin: 0 16px;
+  }
+
+  .navbar__hamburger {
+    visibility: visible;
+  }
+
+  .navbar__menu {
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out 0.1s, opacity 0.2s ease-in-out 0.1s;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 0px;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 9999;
+    filter: blur(1px);
+  }
+
+  .navbar__menu--hidden {
+    visibility: hidden;
+  }
+
+  .menu__link {
+    display: block;
+    text-align: center;
+    padding: 24px 16px;
+    border-radius: 0px;
+  }
+
+  .menu__link:hover {
+    background: #e2e1e1;
+  }
+
+  .menu__link--agendar {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+  }
+
+  .navbar__menu--open {
+    transform: scaleY(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+}

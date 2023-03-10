@@ -4,50 +4,6 @@
   padding-top: 2.5rem; /* convertendo 40px para rem */
 }
 
-.hero__nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.nav__logo {
-  display: block;
-  background-color: #d9d9d9;
-  border-radius: 0.5rem; /* convertendo 8px para rem */
-  width: 7.8125rem; /* convertendo 125px para rem */
-  height: 3rem; /* convertendo 48px para rem */
-}
-
-.nav__menu {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.menu__link {
-  color: var(--preto);
-}
-
-.menu__link--agendar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #d9d9d9;
-  border-radius: 0.5rem; /* convertendo 8px para rem */
-  width: 7.8125rem; /* convertendo 125px para rem */
-  height: 3rem; /* convertendo 48px para rem */
-}
-
-.hamburger {
-  visibility: hidden;
-}
-
-.jogaLonge {
-  position: absolute;
-  z-index: -9999;
-  left: -9999999999999px;
-}
-
 .hero__container {
   display: flex;
   align-items: center;
@@ -91,51 +47,4 @@
   width: 31.93rem; /* convertendo 510.93px para rem */
   height: 22rem; /* convertendo 352px para rem */
   /* margin-right: -90px; */
-}
-
-@media screen and (max-width: 426px) {
-  .hero__nav {
-    justify-content: space-between;
-    margin: 0 16px;
-  }
-
-  .hamburger {
-    visibility: visible;
-  }
-
-  .nav__menu {
-    transform: scale(0);
-    transform-origin: top;
-    transition: transform 0.3s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    width: 100%;
-    background-color: #ffffff;
-    z-index: 9999;
-  }
-
-  .menu__link {
-    display: block;
-    text-align: center;
-    padding: 24px 16px;
-    border-radius: 0px;
-  }
-
-  .menu__link:hover {
-    background: #E2E1E1;
-  }
-
-  .menu__link--agendar {
-    background-color: #ffffff;
-    width: 100%;
-    height: 100%;
-    font-weight: 700;
-  }
-
-  #menuHamburguer:checked ~ .nav__menu {
-    transform: scale(1);
-  }
 }
