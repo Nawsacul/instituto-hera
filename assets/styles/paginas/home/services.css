@@ -39,3 +39,17 @@
     font-weight: 500;
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 480px) {
+    .servicos {
+        padding: 3em 0;
+    }
+
+    .servicos__title {
+        text-align: center;
+    }
+
+    .servicos__description {
+        margin: 3rem 2rem;
+    }
+}

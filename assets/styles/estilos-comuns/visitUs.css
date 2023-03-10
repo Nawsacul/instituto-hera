@@ -1,0 +1,81 @@
+/* VISIT US SECTION ↓↓ */
+
+.visit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e6e6;
+  padding: 4rem 0;
+}
+
+.visit__title {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.visit__paragraph {
+  padding: 3rem 0;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.12rem;
+}
+
+.contact__container {
+  background-color: white;
+  list-style: none;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 1.5rem;
+  padding: 2.5rem 2rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 21.37rem;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.contact__image {
+  background-color: #d9d9d9;
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.contact__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__span {
+  padding-bottom: 1.5rem;
+}
+
+.contact__map {
+  border-radius: 1.5rem;
+  box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 480px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact__container {
+        padding: 2.5rem 1rem;
+        min-width: 100%;
+        max-width: 327px;
+    }
+
+    .contact__map {
+        width: 100%;
+    }
+}

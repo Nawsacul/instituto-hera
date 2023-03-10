@@ -1,6 +1,6 @@
-/* PRICE SECTION ↓↓ */
+/* EXAMS SECTION ↓↓ */
 
-.price {
+.exams {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,13 +8,13 @@
   padding-bottom: 4rem;
 }
 
-.price__title {
+.exams__title {
   font-weight: 700;
   font-size: 2rem;
   /* width: 26rem; */
 }
 
-.price__description {
+.exams__description {
   color: #8e8b8b;
   font-weight: 500;
   /* width: 26rem; */
@@ -22,7 +22,7 @@
   margin-bottom: 2.18rem;
 }
 
-.price__button {
+.exams__button {
   background-color: #d9d9d9;
   border: none;
   width: 10.62rem;
@@ -32,7 +32,7 @@
   cursor: pointer;
 }
 
-.price__image {
+.exams__image {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,20 +42,21 @@
 }
 
 @media screen and (max-width: 480px) {
-  .price {
+  .exams {
     flex-direction: column;
     padding: 0;
     margin-top: 4rem;
     align-items: inherit;
   }
 
-  .price__content {
+  .exams__content {
     margin-bottom: 2rem;
     margin-left: 1rem;
   }
 
-  .price__image {
+  .exams__image {
     width: 100%;
     height: 280px; /* Deixar temporariamente */
+    margin-bottom: 2rem;
   }
 }
