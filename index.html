@@ -17,7 +17,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="/assets/styles/reset.css" />
-    <link rel="stylesheet" href="/assets/styles/home/home.css" />
+    <link rel="stylesheet" href="/assets/styles/paginas/home/home.css" />
     <title>Instituto Hera</title>
   </head>
 
@@ -26,6 +26,13 @@
       <nav class="hero__nav">
         <img src="#" class="nav__logo logo" alt="logo" />
 
+        <input type="checkbox" name="menuHamburguer" id="menuHamburguer" class="jogaLonge" onclick="" />
+        <label for="menuHamburguer" class="hamburger hamburger--slider">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </label>
+        
         <ul class="nav__menu">
           <li><a class="menu__link" href="#">ESPECIALIDADES</a></li>
           <li><a class="menu__link" href="#">RESULTADOS</a></li>
@@ -298,7 +305,7 @@
               <img class="contact__image" src="#" alt="" />
               <div class="contact__text">
                 <span class="contact__span">Endereço</span>
-                <strong class="contact__strong">Rua lorem ipsum, 58</strong>
+                <p class="contact__dado">Rua lorem ipsum, 58</p>
               </div>
             </li>
 
@@ -306,7 +313,7 @@
               <img class="contact__image" src="#" alt="" />
               <div class="contact__text">
                 <span class="contact__span">Telefone</span>
-                <strong class="contact__strong">00 0000 0000</strong>
+                <p class="contact__dado">00 0000 0000</p>
               </div>
             </li>
 
@@ -314,9 +321,9 @@
               <img class="contact__image" src="#" alt="" />
               <div class="contact__text">
                 <span class="contact__span">Horário de atendimento</span>
-                <strong class="contact__strong">Segunda à Sexta</strong>
-                <strong class="contact__strong">08h - 12h</strong>
-                <strong class="contact__strong">13h - 18h</strong>
+                <p class="contact__dado">Segunda à Sexta</p>
+                <p class="contact__dado">08h - 12h</p>
+                <p class="contact__dado">13h - 18h</p>
               </div>
             </li>
           </ul>
@@ -379,7 +386,7 @@
 
       <span>CNPJ E RAZÃO SOCIAL</span>
     </footer>
-
+    <script src="assets/js/menuHamburguer.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
