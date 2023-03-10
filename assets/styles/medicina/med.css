@@ -1,0 +1,77 @@
+.med {
+  padding-top: 2.5rem;
+}
+
+.med__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 4em 0;
+  width: 100%;
+}
+
+.med__content {
+  margin-left: 5rem;
+  width: 100vw;
+}
+
+.med__title {
+  max-width: 26rem;
+  height: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+}
+
+.med__description {
+  font-family: "Inter";
+  font-weight: 500;
+  color: #8e8b8b;
+  line-height: 19px;
+  font-size: 16px;
+  margin-top: 2rem;
+  text-align: end;
+  width: 85vw;
+}
+
+.med__button {
+  max-width: 26rem;
+  background-color: #d9d9d9;
+  border: none;
+  width: 10.625rem;
+  height: 3.188rem;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* Responsividade med */
+@media screen and (max-width: 767px) {
+  .med__container {
+    flex-direction: column;
+    margin: 72px 0 32px 0;
+  }
+
+  .med__content {
+    margin-left: 1rem;
+    width: 95vw;
+  }
+
+  .med__title {
+    margin-bottom: 3.5rem;
+  }
+
+  .med__description {
+    padding-right: 2rem;
+    margin-top: 2rem;
+    text-align: justify;
+  }
+
+  .med__button {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}

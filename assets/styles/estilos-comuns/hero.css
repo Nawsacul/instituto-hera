@@ -12,7 +12,7 @@
 }
 
 .hero__content {
-  margin-left: 5.3125rem; /* convertendo 85px para rem */
+  margin-left: 5.312rem; /* convertendo 85px para rem */
 }
 
 .content__title {
@@ -64,7 +64,7 @@
   .content__description {
     padding-right: 0.5rem;
   }
-  
+
   .content__button {
     margin-bottom: 2rem;
   }
