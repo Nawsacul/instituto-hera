@@ -72,10 +72,14 @@
       margin: 3rem auto;
       font-size: 2.5rem;
     }
+  }
+
+  @media (min-width: 1199px) and (max-width: 1360px) {
   
     .wpp__button {
-      width: 15rem;
-      margin-left: 0;
-      margin-right: 0;
+      width: 20rem;
+      margin-right: 2%;
+
     }
+  
   }
