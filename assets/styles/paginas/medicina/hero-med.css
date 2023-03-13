@@ -1,4 +1,6 @@
 .hero-med__container {
+  display: flex;
+  flex-direction: column;
   margin-top: 76.4px;
   padding: 72px 88px;
 }
@@ -8,13 +10,8 @@
   font-size: 40px;
 }
 
-.hero-med__description {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
-
 .hero-med__description-text {
+  align-self: flex-end;
   width: 416px;
   margin-top: 2.5px;
   line-height: 19px;
@@ -26,6 +23,7 @@
   background: #d9d9d9;
   border-radius: 8px;
   font-weight: 400;
+  width: 170px;
 }
 
 @media screen and (max-width: 500px) {
@@ -34,13 +32,10 @@
     padding: 32px 16px;
   }
 
-  .hero-med__description {
-    margin: 32px 0 40px;
-    justify-content: flex-start;
-  }
-
   .hero-med__description-text {
+    margin: 32px 0 40px;
     width: 328px;
+    align-self: flex-start;
   }
 }
 
@@ -50,8 +45,8 @@
         padding: 64px 32px;
       } 
 
-      .hero-med__description {
+      .hero-med__description-text {
         margin: 4.5px 0 0;
-        justify-content: flex-end;
+        align-self: flex-end;
       }
 }
