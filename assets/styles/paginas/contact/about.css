@@ -1,0 +1,65 @@
+.wpp__button {
+  font-weight: 700;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0.7rem;
+  background-color:#C0C0C0;
+  height: 3.5rem;
+  width: 50rem;
+  margin-right: 13rem;
+  cursor: pointer;
+}
+
+.wpp__button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  transform: translateY(-7px);
+}
+
+.visit {
+  background-color: white;
+}
+
+.contact__container {
+  width: 26.37rem;
+  height: 28.125rem;
+  gap: 5rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wpp__button {
+    width: 20rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .contact__container {
+    width: 19.37rem;
+  }
+  
+  .contact__map {
+    width: 25rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 540px) and (max-width: 767px) {
+  .wpp__button {
+    width: 15rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .contact__container {
+    width: 25rem;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+  
+  .contact__map {
+    width: 25rem;
+  }
+}
