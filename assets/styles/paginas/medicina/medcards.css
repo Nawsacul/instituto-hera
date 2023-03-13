@@ -59,16 +59,6 @@
   background: #ffffff;
 }
 
-@media screen and (max-width: 327px) {
-  .medcards__container {
-    padding: 0 !important;
-  }
-
-  .medcard {
-    width: 320px !important;
-  }
-}
-
 @media screen and (max-width: 500px) {
   .medcards__container {
     padding: 0 16px;
