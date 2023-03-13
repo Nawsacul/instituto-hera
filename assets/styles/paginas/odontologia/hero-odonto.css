@@ -1,16 +1,16 @@
-.hero-med__container {
+.hero-odonto__container {
   display: flex;
   flex-direction: column;
   margin-top: 76.4px;
   padding: 72px 88px;
 }
 
-.hero-med__title {
+.hero-odonto__title {
   font-weight: 700;
   font-size: 40px;
 }
 
-.hero-med__description-text {
+.hero-odonto__description-text {
   align-self: flex-end;
   width: 416px;
   margin-top: 2.5px;
@@ -18,7 +18,7 @@
   color: #8e8b8b;
 }
 
-.hero-med__button {
+.hero-odonto__button {
   padding: 16px 24px;
   background: #d9d9d9;
   border-radius: 8px;
@@ -27,12 +27,12 @@
 }
 
 @media screen and (max-width: 500px) {
-  .hero-med__container {
+  .hero-odonto__container {
     margin: 108.4px 0 32px;
     padding: 32px 16px;
   }
 
-  .hero-med__description-text {
+  .hero-odonto__description-text {
     margin: 32px 0 40px;
     width: 328px;
     align-self: flex-start;
@@ -40,12 +40,12 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .hero-med__container {
+  .hero-odonto__container {
     margin-top: 172px;
     padding: 64px 32px;
   }
 
-  .hero-med__description-text {
+  .hero-odonto__description-text {
     margin: 4.5px 0 0;
     align-self: flex-end;
   }
