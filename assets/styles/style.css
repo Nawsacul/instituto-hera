@@ -30,6 +30,10 @@ body {
   background: var(--primaria);
 }
 
-section {
-  padding: 0 5.625rem; /* convertendo 90px para rem */
+button {
+  border-style: none;
 }
+
+/* section {
+  padding: 0 5.625rem;
+} */

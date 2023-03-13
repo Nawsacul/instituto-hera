@@ -1,6 +1,12 @@
-.med {
-  padding-top: 2.5rem;
-}
+@import url(../../style.css);
+@import url(../../estilos-comuns/carousel.css);
+@import url(../../estilos-comuns/footer.css);
+@import url(../../estilos-comuns/navbar.css);
+@import url(../../../dist/hambuger/hamburger.css);
+@import url(hero-med.css);
+@import url(medcards.css);
+@import url(primaryCard.css);
+@import url(secondCard.css);
 
 .med__container {
   display: flex;
@@ -8,16 +14,17 @@
   justify-content: space-around;
   margin: 4em 0;
   width: 100%;
+  padding-top: 2.5rem;
 }
 
 .med__content {
-  margin-left: 5rem;
-  width: 100vw;
+  margin-left: 85px;
+  width: 100%;
 }
 
 .med__title {
   max-width: 26rem;
-  height: 3rem;
+  /* height: 3rem; */
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
@@ -27,14 +34,22 @@
 }
 
 .med__description {
-  font-family: "Inter";
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.med__description-text {
+  /* font-family: "Inter"; */
   font-weight: 500;
   color: #8e8b8b;
   line-height: 19px;
   font-size: 16px;
   margin-top: 2rem;
-  text-align: end;
-  width: 85vw;
+  width: 416px;
+  margin-right: 91px;
+  /* text-align: end; */
+  /* width: 85vw; */
 }
 
 .med__button {
@@ -57,21 +72,33 @@
 
   .med__content {
     margin-left: 1rem;
-    width: 95vw;
+    /* width: 95vw; */
   }
 
   .med__title {
     margin-bottom: 3.5rem;
   }
 
-  .med__description {
-    padding-right: 2rem;
+  .med__description-text {
+    /* padding-right: 2rem; */
     margin-top: 2rem;
-    text-align: justify;
+    /* text-align: justify; */
+    width: 328px; 
   }
 
   .med__button {
     margin-bottom: 2rem;
     margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .med__content {
+    margin-left: 32px;
+  }
+
+  .med__description-text {
+    width: 348px;
+    margin: 4.5px 0 8.5px;
   }
 }

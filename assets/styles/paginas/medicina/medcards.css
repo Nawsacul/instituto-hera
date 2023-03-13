@@ -1,0 +1,110 @@
+.medcards {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  margin-bottom: 88px;
+}
+
+.medcards__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.medcard {
+  display: flex;
+  align-items: center;
+  padding: 32px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 24px;
+  background: #f1f0f0;
+  width: 848px;
+}
+
+.medcard__line {
+  border: 1px solid #000000;
+  height: 200px;
+  margin-left: 80px;
+  margin-right: 48px;
+}
+
+.medcard__info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.medcard__doc-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.medcard__doc-subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  padding: 16px 0 24px;
+  line-height: 29px;
+}
+
+.medcard__doc-details {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.medcard:nth-child(even) {
+  flex-direction: row-reverse;
+  background: #ffffff;
+}
+
+@media screen and (max-width: 327px) {
+  .medcards__container {
+    padding: 0 !important;
+  }
+
+  .medcard {
+    width: 320px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .medcards__container {
+    padding: 0 16px;
+    align-items: center;
+  }
+
+  .medcard {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .medcard:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .medcard__line {
+    width: 252px;
+    height: 0px;
+    margin: 80px 38px 48px;
+  }
+
+  .medcard__info {
+    width: 264px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .medcards {
+    padding: 0 32px;
+  }
+
+  .medcard {
+    width: 704px;
+  }
+
+  .medcard__line {
+    margin: 0 48px;
+  }
+}
