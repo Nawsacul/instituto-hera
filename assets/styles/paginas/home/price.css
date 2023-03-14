@@ -43,7 +43,7 @@
   height: 283.83px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .price {
     flex-direction: column;
     padding: 0;
@@ -52,12 +52,22 @@
   }
 
   .price__content {
-    margin-bottom: 2rem;
-    margin-left: 1rem;
+    margin: 0 1rem 2rem;
   }
 
   .price__image {
     width: 100%;
     height: 280px; /* Deixar temporariamente */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .price {
+    padding: 4rem 0 4rem 2rem;
+    gap: 17px;
+  }
+
+  .price__content {
+    max-width: 344px;
   }
 }

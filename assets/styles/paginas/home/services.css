@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4em 0;
+  padding: 4rem 0;
 }
 
 .servicos__titulo-botoes-container {
@@ -90,14 +90,19 @@
   text-align: left;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .servicos {
-    padding: 3em 0;
+    padding: 3rem 0;
+  }
+
+  .servicos__titulo-botoes-container {
+    padding: 0;
   }
 
   .servicos__title {
     text-align: center;
-    font-size: 2rem;
+    width: 100%;
+    font-size: 2.125rem;
   }
 
   .servicos__description {
@@ -105,8 +110,16 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-    .servicos__titulo-botoes-container {
-        padding: 0 32px;
-    }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .servicos {
+    padding: 2rem 0;
+  }
+
+  .servicos__titulo-botoes-container {
+    padding: 0 32px;
+  }
+
+  .servicos__description {
+    margin: 3rem 2rem;
+  }
 }

@@ -46,11 +46,9 @@
 }
 
 /* FOOTER RESPONSIVO Mobile/Tablet ↓↓ */
-
-@media (max-width: 768px) {
+@media screen and (min-width: 320px) {
   .endpage {
-    flex-direction: column;
-    padding: 1.25rem 0;
+    padding: 47.75px 12px 48px;
   }
 
   .endpage__contact {
@@ -70,5 +68,12 @@
   .endpage__icons {
     margin-top: 1.25rem;
     justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .endpage {
+    flex-direction: column;
+    padding: 1.25rem 0;
   }
 }

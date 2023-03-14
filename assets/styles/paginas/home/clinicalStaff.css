@@ -80,12 +80,32 @@
   top: var(--swiper-navigation-top-offset--clinicalStaff, 50%);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .clinicalStaff {
     padding-bottom: 3rem;
   }
 
+  .clinicalStaff__titulo-botoes-container {
+    padding: 0 32px;
+  }
+
   .clinicalStaff__title {
-    font-size: 2rem;
+    font-size: 2.125rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .clinicalStaff {
+    padding: 2rem 0;
+  }
+
+  .clinicalStaff__titulo-botoes-container {
+    padding: 0 32px;
+  }
+
+  .clinicalStaff__title {
+    font-size: 2.125rem;
   }
 }
