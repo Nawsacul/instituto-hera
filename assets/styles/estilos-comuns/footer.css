@@ -9,6 +9,23 @@
   padding: 1.5rem 0 3rem 0;
 }
 
+.endpage__contact {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+.endpage__link {
+  color: var(--secundaria900);
+  font-size: 0.875rem;
+  line-height: 16.8px;
+}
+
+.endpage__link--agendar {
+  font-weight: 700;
+}
+
 .endpage__icons {
   display: flex;
   align-items: center;
@@ -17,32 +34,15 @@
   gap: 1.31rem;
 }
 
-.endpage__contact {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 1rem;
-}
-
-.endpage__text {
-  cursor: pointer;
-}
-
-.endpage__text--agendar {
-  cursor: pointer;
-  font-weight: 700;
-}
-
-.insta {
+.endpage__icon {
   width: 1.125rem;
   height: 1.125em;
-  cursor: pointer;
 }
 
-.face {
-  width: 1.125rem;
-  height: 1.125rem;
-  cursor: pointer;
+.endpage__end {
+  font-size: 14px;
+  color: var(--secundaria900);
+  line-height: 120%;
 }
 
 /* FOOTER RESPONSIVO Mobile/Tablet ↓↓ */

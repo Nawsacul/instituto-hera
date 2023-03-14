@@ -6,7 +6,7 @@
   --swiper-pagination-bullet-inactive-opacity: 1;
   --swiper-navigation-top-offset: 72%;
   --swiper-navigation-sides-offset: 0px;
-  --swiper-navigation-color: var(--preto);
+  --swiper-navigation-color: var(--primaria);
   --swiper-navigation-size: 12px;
   --swiper-navigation-background-size: 2.5rem;
   --swiper-navigation-top-offset--clinicalStaff: 183%;
@@ -23,113 +23,11 @@
 .swiper-button-next,
 .swiper-button-prev {
   font-weight: 900;
-  background: #d9d9d9;
+  background: var(--terciaria);
   width: var(--swiper-navigation-background-size);
   height: var(--swiper-navigation-background-size);
   border-radius: 100%;
   position: inherit;
-}
-
-.swiper-button__container {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  position: relative;
-  top: 0.375rem;
-}
-
-/* Serviços HOME */
-
-.swiper--servicos {
-  height: 16.25rem;
-}
-
-.swiper-slide--servicos {
-  text-align: center;
-  background: #fff;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  /* display: flex;
-  flex-direction: column; */
-  align-items: center;
-  height: 12.5rem;
-  border-radius: 1.5rem;
-  padding-left: 1.25rem;
-  box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.1);
-}
-
-.swiper-slide__img--servicos {
-  grid-row: 1 / 2;
-  background: #d9d9d9;
-  border-radius: 100%;
-  width: 5.303rem;
-  height: 5.303rem;
-}
-
-.swiper-slide__text--servicos {
-  grid-row: 2 / 3;
-  font-size: 1.5rem;
-  font-weight: 500;
-  text-align: left;
-}
-
-/* clinicalStaff HOME */
-
-.swiper--clinicalStaff {
-  height: 330px;
-}
-
-.swiper-slide--clinicalStaff {
-  text-align: center;
-  background: #d9d9d9;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  /* display: flex;
-    flex-direction: column; */
-  align-items: center;
-  height: 12.5rem;
-  border-radius: 1.5rem;
-  width: 198px !important;
-  height: 270px;
-  /* Drop Shadow 32 */
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-}
-
-.swiper-slide__img--clinicalStaff {
-  grid-row: 1 / 2;
-  background: #d9d9d9;
-  justify-self: center;
-  padding-top: 49px;
-}
-
-.swiper-slide__hr--clinicalStaff {
-  grid-row: 2 / 3;
-  border: none;
-  border-top: 2px solid black;
-  margin: 1rem 1rem;
-}
-
-.swiper-slide__identificacao--clinicalStaff {
-  grid-row: 3 / 4;
-  text-align: left;
-  padding-left: 32px;
-  padding-bottom: 17px;
-}
-
-.identificacao__nome--clinicalStaff {
-  padding-bottom: 8px;
-  font-weight: 700;
-}
-
-.identificacao__funcao--clinicalStaff {
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.swiper-button-next--clinicalStaff,
-.swiper-button-prev--clinicalStaff {
-  top: var(--swiper-navigation-top-offset--clinicalStaff, 50%);
 }
 
 @media screen and (max-width: 480px) {
