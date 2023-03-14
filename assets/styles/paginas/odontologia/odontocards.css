@@ -18,15 +18,14 @@
   padding: 32px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
   border-radius: 24px;
-  background: #f1f0f0;
+  background: #e5eee5;
   width: 848px;
 }
 
 .odontocard__line {
-  border: 1px solid #000000;
+  border: 1px solid #955731;
   height: 200px;
-  margin-left: 80px;
-  margin-right: 48px;
+  margin: 0 48px;
 }
 
 .odontocard__info {
@@ -36,22 +35,22 @@
 }
 
 .odontocard__doc-title {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 120%;
 }
 
 .odontocard__doc-subtitle {
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 16px;
   padding: 16px 0 24px;
-  line-height: 29px;
+  line-height: 120%;
 }
 
 .odontocard__doc-details {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 16px;
+  line-height: 120%;
 }
 
 .odontocard:nth-child(even) {
@@ -92,6 +91,10 @@
 
   .odontocard {
     width: 704px;
+  }
+
+  .hero-odonto__container {
+    margin-top: 187px;
   }
 
   .odontocard__line {
