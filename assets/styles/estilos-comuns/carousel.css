@@ -1,11 +1,11 @@
 :root {
   --swiper-pagination-bullet-horizontal-gap: 1rem;
-  --swiper-pagination-color: #919191;
+  --swiper-pagination-color: var(--secundaria700);
   --swiper-pagination-bullet-size: 1rem;
-  --swiper-pagination-bullet-inactive-color: #d9d9d9;
+  --swiper-pagination-bullet-inactive-color: var(--secundaria200);
   --swiper-pagination-bullet-inactive-opacity: 1;
   --swiper-navigation-top-offset: 72%;
-  --swiper-navigation-sides-offset: 95px;
+  --swiper-navigation-sides-offset: 0px;
   --swiper-navigation-color: var(--preto);
   --swiper-navigation-size: 12px;
   --swiper-navigation-background-size: 2.5rem;
@@ -27,6 +27,16 @@
   width: var(--swiper-navigation-background-size);
   height: var(--swiper-navigation-background-size);
   border-radius: 100%;
+  position: inherit;
+}
+
+.swiper-button__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  position: relative;
+  top: 0.375rem;
 }
 
 /* Serviços HOME */

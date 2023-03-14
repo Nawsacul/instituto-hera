@@ -1,7 +1,7 @@
 /* servicos SECTION ↓↓ */
 
 .servicos {
-    background-color: #EEEBEB;
+    background: var(--secundaria50);
     display: flex;
     flex-direction: column;
     align-items: center;
