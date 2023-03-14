@@ -7,7 +7,7 @@
   background: var(--primaria);
   top: 0;
   z-index: 999;
-  padding: 40px 88px 16px;
+  padding: 16px 88px 16px;
   /* Drop Shadow 30 */
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
