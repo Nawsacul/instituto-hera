@@ -1,6 +1,6 @@
 /* CLINICAL STEFF SECTION ↓↓ */
 
-.clinicalStaff {
+.team-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
   padding: 4rem 0;
 }
 
-.clinicalStaff__titulo-botoes-container {
+.team-section__header {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
@@ -18,18 +18,18 @@
   margin-bottom: 4rem;
 }
 
-.clinicalStaff__title {
+.team-section__title {
   font-size: 2.688rem;
   font-weight: 400;
 }
 
 /* clinicalStaff HOME */
 
-.swiper--clinicalStaff {
+.team-section__swiper {
   height: 330px;
 }
 
-.swiper-slide--clinicalStaff {
+.team-section__swiper-slide {
   text-align: center;
   background: var(--secundaria50);
   display: grid;
@@ -44,52 +44,47 @@
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
 
-.swiper-slide__img--clinicalStaff {
+.team-section__swiper-slide-img {
   grid-row: 1 / 2;
   background: transparent;
   justify-self: center;
 }
 
-.swiper-slide__hr--clinicalStaff {
+.team-section__swiper-slide-hr {
   grid-row: 2 / 3;
   border: none;
   border: 1px solid var(--terciaria);
   margin: 24px 0 8px;
 }
 
-.swiper-slide__identificacao--clinicalStaff {
+.team-section__swiper-slide-info {
   grid-row: 3 / 4;
   text-align: left;
   padding-left: 13px;
 }
 
-.identificacao__nome--clinicalStaff {
+.team-section__swiper-slide-name {
   padding-bottom: 8px;
   font-weight: 700;
   line-height: 120%;
 }
 
-.identificacao__funcao--clinicalStaff {
+.team-section__swiper-slide-role {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
 }
 
-.swiper-button-next--clinicalStaff,
-.swiper-button-prev--clinicalStaff {
-  top: var(--swiper-navigation-top-offset--clinicalStaff, 50%);
-}
-
 @media screen and (max-width: 580px) {
-  .clinicalStaff {
+  .team-section {
     padding-bottom: 3rem;
   }
 
-  .clinicalStaff__titulo-botoes-container {
+  .team-section__header {
     padding: 0 32px;
   }
 
-  .clinicalStaff__title {
+  .team-section__title {
     font-size: 2.125rem;
     width: 100%;
     text-align: center;
@@ -97,21 +92,21 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .clinicalStaff {
+  .team-section {
     padding: 2rem 0;
   }
 
-  .clinicalStaff__titulo-botoes-container {
+  .team-section__header {
     padding: 0 32px;
   }
 
-  .clinicalStaff__title {
+  .team-section__title {
     font-size: 2.125rem;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .clinicalStaff__titulo-botoes-container {
+  .team-section__header {
     justify-content: center;
   }
 }

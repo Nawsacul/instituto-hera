@@ -1,6 +1,6 @@
-/* servicos SECTION ↓↓ */
+/* cards-section SECTION ↓↓ */
 
-.servicos {
+.cards-section {
   background: var(--secundaria50);
   display: flex;
   flex-direction: column;
@@ -9,25 +9,23 @@
   padding: 4rem 0;
 }
 
-.servicos__titulo-botoes-container {
+.cards-section__header {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   padding: 0 88px;
-  /* position: relative; */
-  /* top: 0.375rem; */
 }
 
-.servicos__title {
+.cards-section__title {
   font-size: 2.688rem;
   font-weight: 400;
   color: var(--secundaria900);
   line-height: 120%;
 }
 
-.servicos__description {
+.cards-section__description {
   font-weight: 400;
   color: var(--secundaria900);
   max-width: 53rem;
@@ -36,31 +34,13 @@
   line-height: 120%;
 }
 
-.servicos__list {
-  display: flex;
-  list-style: none;
-  gap: 1rem;
-}
-
-.servicos__item {
-  background-color: white;
-  width: 12.5rem;
-  height: 12.5rem;
-  border-radius: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
-  font-size: 1.5rem;
-}
-
 /* Serviços HOME */
 
-.swiper--servicos {
+.cards-section__swiper {
   height: 16.25rem;
 }
 
-.swiper-slide--servicos {
+.cards-section__swiper-slide {
   text-align: center;
   background: #fff;
   display: grid;
@@ -74,7 +54,7 @@
   box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.1);
 }
 
-.swiper-slide__img--servicos {
+.cards-section__swiper-slide-img {
   grid-row: 1 / 2;
   background: #d9d9d9;
   border-radius: 100%;
@@ -82,7 +62,7 @@
   height: 5.303rem;
 }
 
-.swiper-slide__title--servicos {
+.cards-section__swiper-slide-title {
   grid-row: 2 / 3;
   font-size: 1.5rem;
   line-height: 120%;
@@ -92,41 +72,41 @@
 }
 
 @media screen and (max-width: 580px) {
-  .servicos {
+  .cards-section {
     padding: 3rem 0;
   }
 
-  .servicos__titulo-botoes-container {
+  .cards-section__header {
     padding: 0;
   }
 
-  .servicos__title {
+  .cards-section__title {
     text-align: center;
     width: 100%;
     font-size: 2.125rem;
   }
 
-  .servicos__description {
+  .cards-section__description {
     margin: 3rem 2rem;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .servicos {
+  .cards-section {
     padding: 2rem 0;
   }
 
-  .servicos__titulo-botoes-container {
+  .cards-section__header {
     padding: 0 32px;
   }
 
-  .servicos__description {
+  .cards-section__description {
     margin: 3rem 2rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .servicos__titulo-botoes-container {
+  .cards-section__header {
     justify-content: center;
   }
 }
