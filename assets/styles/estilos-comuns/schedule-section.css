@@ -1,25 +1,24 @@
-/* EXAMS SECTION ↓↓ */
+/* schedule-section SECTION ↓↓ */
 
-.exams {
+.schedule-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 4rem 5.5rem;
 }
 
-.exams__content {
+.schedule-section__content {
   max-width: 413px;
 }
 
-.exams__title {
-  max-width: 413px;
+.schedule-section__title {
   font-weight: 400;
   color: var(--secundaria900);
   font-size: 2.125rem;
   line-height: 40.8px;
 }
 
-.exams__description {
+.schedule-section__description {
   color: var(--secundaria900);
   font-weight: 400;
   margin-top: 1.5rem;
@@ -27,7 +26,7 @@
   line-height: 19.2px;
 }
 
-.exams__button {
+.schedule-section__button {
   background: var(--terciaria);
   border: none;
   width: 10.625rem; /* convertendo 170px para rem */
@@ -38,38 +37,37 @@
   cursor: pointer;
 }
 
-.exams__image {
+.schedule-section__image {
   background-color: #d9d9d9;
   width: 412px;
   height: 283.83px;
 }
 
 @media screen and (max-width: 580px) {
-  .exams {
+  .schedule-section {
     flex-direction: column;
     padding: 0;
     margin-top: 4rem;
     align-items: inherit;
   }
 
-  .exams__content {
+  .schedule-section__content {
     margin: 0 1rem 2rem;
   }
 
-  .exams__image {
+  .schedule-section__image {
     width: 100%;
     height: 280px; /* Deixar temporariamente */
-    margin-bottom: 2rem;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .exams {
+  .schedule-section {
     padding: 4rem 0 4rem 2rem;
     gap: 17px;
   }
 
-  .exams__content {
+  .schedule-section__content {
     max-width: 344px;
   }
 }

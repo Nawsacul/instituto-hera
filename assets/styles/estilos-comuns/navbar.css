@@ -53,6 +53,7 @@
 
 .menu__link--agendar:hover {
   background: var(--secundaria700);
+  color: var(--primaria);
 }
 
 .hamburger {
@@ -115,13 +116,9 @@
   }
 
   .menu__link--agendar {
-    background-color: var(--terciaria);
+    background: var(--terciaria);
     font-weight: 700;
     color: var(--primaria);
-  }
-
-  .menu__link--agendar:hover {
-    background-color: var(--secundaria700);
   }
 
   .navbar__menu--open {
