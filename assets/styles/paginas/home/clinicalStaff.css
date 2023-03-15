@@ -109,3 +109,9 @@
     font-size: 2.125rem;
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .clinicalStaff__titulo-botoes-container {
+    justify-content: center;
+  }
+}

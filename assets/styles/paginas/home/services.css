@@ -66,6 +66,7 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   align-items: end;
+  width: 12.5rem !important;
   height: 12.5rem;
   border-radius: 1.5rem;
   /* padding-left: 1.25rem; */
@@ -121,5 +122,11 @@
 
   .servicos__description {
     margin: 3rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .servicos__titulo-botoes-container {
+    justify-content: center;
   }
 }

@@ -362,12 +362,24 @@
 
     <footer class="endpage">
       <ul class="endpage__contact">
-        <li class="endpage__text"><a href="#" class="endpage__link">MEDICINA</a></li>
-        <li class="endpage__text"><a href="#" class="endpage__link">ODONTOLOGIA</a></li>
-        <li class="endpage__text"><a href="#" class="endpage__link">RESULTADOS</a></li>
-        <li class="endpage__text"><a href="#" class="endpage__link">EXAMES</a></li>
-        <li class="endpage__text"><a href="#" class="endpage__link">SOBRE</a></li>
-        <li class="endpage__text"><a href="#" class="endpage__link">CONTATO</a></li>
+        <li class="endpage__text">
+          <a href="#" class="endpage__link">MEDICINA</a>
+        </li>
+        <li class="endpage__text">
+          <a href="#" class="endpage__link">ODONTOLOGIA</a>
+        </li>
+        <li class="endpage__text">
+          <a href="#" class="endpage__link">RESULTADOS</a>
+        </li>
+        <li class="endpage__text">
+          <a href="#" class="endpage__link">EXAMES</a>
+        </li>
+        <li class="endpage__text">
+          <a href="#" class="endpage__link">SOBRE</a>
+        </li>
+        <li class="endpage__text">
+          <a href="#" class="endpage__link">CONTATO</a>
+        </li>
         <li class="endpage__text endpage__text--agendar">
           <a href="#" class="endpage__link endpage__link--agendar">AGENDAR</a>
         </li>
@@ -413,10 +425,9 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
+        slidesPerView: 'auto',
         spaceBetween: 16,
         cssMode: true,
-        width: 848,
         navigation: {
           nextEl: ".swiper-button-next--servicos",
           prevEl: ".swiper-button-prev--servicos",
@@ -427,7 +438,6 @@
           // dynamicBullets: true,
         },
         breakpoints: {
-          640: {},
           768: {},
           1024: {
             enabled: true,
@@ -442,10 +452,9 @@
       });
 
       var swiper = new Swiper(".swiper--clinicalStaff", {
-        slidesPerView: 4,
+        slidesPerView: 'auto',
         spaceBetween: 16,
         cssMode: true,
-        width: 848,
         navigation: {
           nextEl: ".swiper-button-next--clinicalStaff",
           prevEl: ".swiper-button-prev--clinicalStaff",
@@ -455,13 +464,13 @@
           clickable: true,
         },
         breakpoints: {
-          640: {},
-          768: {},
+          768: {
+          },
           1024: {
             enabled: true,
           },
           1440: {
-            enabled: false,
+            enabled: true,
           },
           1920: {
             enabled: false,
