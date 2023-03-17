@@ -1,6 +1,6 @@
 /* CLINICAL STEFF SECTION ↓↓ */
 
-.team-section {
+.team {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
   padding: 4rem 0;
 }
 
-.team-section__header {
+.team__header {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
@@ -18,18 +18,18 @@
   margin-bottom: 4rem;
 }
 
-.team-section__title {
+.team__title {
   font-size: 2.688rem;
   font-weight: 400;
 }
 
 /* clinicalStaff HOME */
 
-.team-section__swiper {
+.team__swiper {
   height: 330px;
 }
 
-.team-section__swiper-slide {
+.team__swiper-slide {
   text-align: center;
   background: var(--secundaria50);
   display: grid;
@@ -44,47 +44,47 @@
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
 
-.team-section__swiper-slide-img {
+.team__swiper-slide-img {
   grid-row: 1 / 2;
   background: transparent;
   justify-self: center;
 }
 
-.team-section__swiper-slide-hr {
+.team__swiper-slide-hr {
   grid-row: 2 / 3;
   border: none;
   border: 1px solid var(--terciaria);
   margin: 24px 0 8px;
 }
 
-.team-section__swiper-slide-info {
+.team__swiper-slide-info {
   grid-row: 3 / 4;
   text-align: left;
   padding-left: 13px;
 }
 
-.team-section__swiper-slide-name {
+.team__swiper-slide-name {
   padding-bottom: 8px;
   font-weight: 700;
   line-height: 120%;
 }
 
-.team-section__swiper-slide-role {
+.team__swiper-slide-role {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
 }
 
 @media screen and (max-width: 580px) {
-  .team-section {
+  .team {
     padding-bottom: 3rem;
   }
 
-  .team-section__header {
+  .team__header {
     padding: 0 32px;
   }
 
-  .team-section__title {
+  .team__title {
     font-size: 2.125rem;
     width: 100%;
     text-align: center;
@@ -92,21 +92,21 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .team-section {
+  .team {
     padding: 2rem 0;
   }
 
-  .team-section__header {
+  .team__header {
     padding: 0 32px;
   }
 
-  .team-section__title {
+  .team__title {
     font-size: 2.125rem;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .team-section__header {
+  .team__header {
     justify-content: center;
   }
 }

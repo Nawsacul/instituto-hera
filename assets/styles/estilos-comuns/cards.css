@@ -1,6 +1,6 @@
-/* cards-section SECTION ↓↓ */
+/* cards SECTION ↓↓ */
 
-.cards-section {
+.cards {
   background: var(--secundaria50);
   display: flex;
   flex-direction: column;
@@ -9,7 +9,7 @@
   padding: 4rem 0;
 }
 
-.cards-section__header {
+.cards__header {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
@@ -18,14 +18,14 @@
   padding: 0 88px;
 }
 
-.cards-section__title {
+.cards__title {
   font-size: 2.688rem;
   font-weight: 400;
   color: var(--secundaria900);
   line-height: 120%;
 }
 
-.cards-section__description {
+.cards__description {
   font-weight: 400;
   color: var(--secundaria900);
   max-width: 53rem;
@@ -36,11 +36,11 @@
 
 /* Serviços HOME */
 
-.cards-section__swiper {
+.cards__swiper {
   height: 16.25rem;
 }
 
-.cards-section__swiper-slide {
+.cards__swiper-slide {
   text-align: center;
   background: #fff;
   display: grid;
@@ -54,7 +54,7 @@
   box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.1);
 }
 
-.cards-section__swiper-slide-img {
+.cards__swiper-slide-img {
   grid-row: 1 / 2;
   background: #d9d9d9;
   border-radius: 100%;
@@ -62,7 +62,7 @@
   height: 5.303rem;
 }
 
-.cards-section__swiper-slide-title {
+.cards__swiper-slide-title {
   grid-row: 2 / 3;
   font-size: 1.5rem;
   line-height: 120%;
@@ -72,41 +72,41 @@
 }
 
 @media screen and (max-width: 580px) {
-  .cards-section {
+  .cards {
     padding: 3rem 0;
   }
 
-  .cards-section__header {
+  .cards__header {
     padding: 0;
   }
 
-  .cards-section__title {
+  .cards__title {
     text-align: center;
     width: 100%;
     font-size: 2.125rem;
   }
 
-  .cards-section__description {
+  .cards__description {
     margin: 3rem 2rem;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .cards-section {
+  .cards {
     padding: 2rem 0;
   }
 
-  .cards-section__header {
+  .cards__header {
     padding: 0 32px;
   }
 
-  .cards-section__description {
+  .cards__description {
     margin: 3rem 2rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .cards-section__header {
+  .cards__header {
     justify-content: center;
   }
 }
