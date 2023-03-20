@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
 
@@ -17,12 +17,12 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="/assets/styles/reset.css" />
-    <link rel="stylesheet" href="/assets/styles/paginas/home/home.css" />
-    <title>Instituto Hera</title>
+    <link rel="stylesheet" href="/assets/styles/paginas/sobre/sobre.css" />
+    <title>Instituto Hera - Sobre</title>
   </head>
 
   <body>
-    <header class="hero">
+    <header class="sobre">
       <nav class="navbar">
         <img src="#" class="navbar__logo logo" alt="logo" />
 
@@ -32,7 +32,6 @@
           id="menuHamburguer"
           class="navbar__input-jogaLonge"
         />
-        <!-- IGNORAR -->
         <label
           for="menuHamburguer"
           class="navbar__hamburger hamburger hamburger--slider"
@@ -43,19 +42,12 @@
         </label>
 
         <ul class="navbar__menu navbar__menu--hidden">
-          <li class="menu__item menu__item--especialidades">
-            <button class="menu__link menu__link--especialidades">ESPECIALIDADES</button>
-
-            <div class="menu__submenu">
-             <a class="menu__submenu-link" href="#">MEDICINA</a>
-             <a class="menu__submenu-link" href="#">ODONTOLOGIA</a>
-            </div>
-          </li>
-          <li class="menu__item"><a class="menu__link" href="#">RESULTADOS</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">EXAMES</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">SOBRE</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">CONTATO</a></li>
-          <li class="menu__item">
+          <li><a class="menu__link" href="#">ESPECIALIDADES</a></li>
+          <li><a class="menu__link" href="#">RESULTADOS</a></li>
+          <li><a class="menu__link" href="#">EXAMES</a></li>
+          <li><a class="menu__link" href="#">SOBRE</a></li>
+          <li><a class="menu__link" href="#">CONTATO</a></li>
+          <li>
             <a class="menu__link menu__link--agendar" href="#">AGENDAR</a>
           </li>
         </ul>
@@ -63,15 +55,7 @@
 
       <div class="hero__container container">
         <div class="hero__content content">
-          <h1 class="content__title">Bem-vindo ao Instituto Hera</h1>
-
-          <p class="content__description">
-            Sua clínica odontológica e médica de confiança. Aqui, oferecemos uma
-            ampla gama de serviços odontológicos e médicos para atender às
-            necessidades de toda a sua família.
-          </p>
-
-          <button class="content__button button">Agendar horário</button>
+          <h1 class="content__title">Sobre o Instituto Hera</h1>
         </div>
 
         <img
@@ -83,83 +67,30 @@
     </header>
 
     <main>
-      <section class="cards">
-        <div class="cards__header">
-          <div class="swiper-button-next cards__button-next"></div>
-          <h2 class="cards__title">Nossos serviços</h2>
-          <div class="swiper-button-prev cards__button-prev"></div>
-        </div>
+      <section class="sobre-text">
+        <h2 class="sobre-text__title">Como tudo começou</h2>
 
-        <p class="cards__description">
-          Aqui, oferecemos uma ampla gama de serviços odontológicos e médicos
-          para atender às necessidades de toda a sua família.
+        <p class="sobre-text__description">
+          Dr. Danilo e sua esposa tinham a vontade de fundar uma clínica em
+          Santo Estevão, que disponibilizasse exames de qualidade para toda a
+          população de Santo Estevão e região.... etc etc
         </p>
-
-        <div class="swiper cards__swiper">
-          <div class="swiper-wrapper cards__swiper-wrapper">
-            <div class="swiper-slide cards__swiper-slide">
-              <img class="cards__swiper-slide-img" src="" alt="" />
-              <h4 class="cards__swiper-slide-title">Odontologia</h4>
-            </div>
-            <div class="swiper-slide cards__swiper-slide">
-              <img class="cards__swiper-slide-img" src="" alt="" />
-              <h4 class="cards__swiper-slide-title">Neurologia</h4>
-            </div>
-<<<<<<< HEAD
-            <div class="swiper-slide cards-section__swiper-slide">
-              <img class="cards-section__swiper-slide-img" src="" alt="" />
-              <h4 class="cards-section__swiper-slide-title">
-                Tomografia e raio x
-              </h4>
-=======
-            <div class="swiper-slide cards__swiper-slide">
-              <img class="cards__swiper-slide-img" src="" alt="" />
-              <h4 class="cards__swiper-slide-title">Tomografia e raio x</h4>
->>>>>>> db7ec92ac1a4960a9be4838c37c0e416a0346348
-            </div>
-            <div class="swiper-slide cards__swiper-slide">
-              <img class="cards__swiper-slide-img" src="" alt="" />
-              <h4 class="cards__swiper-slide-title">Psiquiatria</h4>
-            </div>
-            <div class="swiper-slide cards__swiper-slide">
-              <img class="cards__swiper-slide-img" src="" alt="" />
-              <h4 class="cards__swiper-slide-title">Ortopedia</h4>
-            </div>
-            <div class="swiper-slide cards__swiper-slide">
-              <img class="cards__swiper-slide-img" src="" alt="" />
-              <h4 class="cards__swiper-slide-title">Ginecologia</h4>
-            </div>
-          </div>
-          <div class="swiper-pagination cards__pagination"></div>
-        </div>
       </section>
 
-      <section class="schedule schedule--price">
-        <div class="schedule__content">
-          <h3 class="schedule__title">
-            Preços acessíveis e agendamento rápido
-          </h3>
+      <section class="sobre-text">
+        <h2 class="sobre-text__title--misson">Missão</h2>
 
-          <p class="schedule__description">
-            Agende tudo pelo whatsapp, consultas à partir de R$xx,xx
-          </p>
-
-          <button class="schedule__button price__button button">
-            Agendar horário
-          </button>
-        </div>
-
-        <img
-          class="schedule__image"
-          src="#"
-          alt="foto de mão com celular, mostrando whatsapp"
-        />
+        <p class="sobre-text__description">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
       </section>
 
-      <section class="team">
+      <section class="team--sobre">
         <div class="team__header">
           <div class="swiper-button-next team__button-next"></div>
-          <h2 class="team__title">Corpo clínico</h2>
+          <h2 class="team__title">Equipe</h2>
           <div class="swiper-button-prev team__button-prev"></div>
         </div>
 
@@ -173,9 +104,7 @@
               />
               <hr class="team__swiper-slide-hr" />
               <div class="team__swiper-slide-info">
-                <p class="team__swiper-slide-name">
-                  Dr Fulano da Silva
-                </p>
+                <p class="team__swiper-slide-name">Dr Fulano da Silva</p>
                 <p class="team__swiper-slide-role">Odontologia</p>
               </div>
             </div>
@@ -188,9 +117,7 @@
               />
               <hr class="team__swiper-slide-hr" />
               <div class="team__swiper-slide-info">
-                <p class="team__swiper-slide-name">
-                  Dr Fulano da Silva
-                </p>
+                <p class="team__swiper-slide-name">Dr Fulano da Silva</p>
                 <p class="team__swiper-slide-role">Odontologia</p>
               </div>
             </div>
@@ -203,9 +130,7 @@
               />
               <hr class="team__swiper-slide-hr" />
               <div class="team__swiper-slide-info">
-                <p class="team__swiper-slide-name">
-                  Dr Fulano da Silva
-                </p>
+                <p class="team__swiper-slide-name">Dr Fulano da Silva</p>
                 <p class="team__swiper-slide-role">Odontologia</p>
               </div>
             </div>
@@ -218,9 +143,7 @@
               />
               <hr class="team__swiper-slide-hr" />
               <div class="team__swiper-slide-info">
-                <p class="team__swiper-slide-name">
-                  Dr Fulano da Silva
-                </p>
+                <p class="team__swiper-slide-name">Dr Fulano da Silva</p>
                 <p class="team__swiper-slide-role">Odontologia</p>
               </div>
             </div>
@@ -233,9 +156,7 @@
               />
               <hr class="team__swiper-slide-hr" />
               <div class="team__swiper-slide-info">
-                <p class="team__swiper-slide-name">
-                  Dr Fulano da Silva
-                </p>
+                <p class="team__swiper-slide-name">Dr Fulano da Silva</p>
                 <p class="team__swiper-slide-role">Odontologia</p>
               </div>
             </div>
@@ -248,9 +169,7 @@
               />
               <hr class="team__swiper-slide-hr" />
               <div class="team__swiper-slide-info">
-                <p class="team__swiper-slide-name">
-                  Dr Fulano da Silva
-                </p>
+                <p class="team__swiper-slide-name">Dr Fulano da Silva</p>
                 <p class="team__swiper-slide-role">Odontologia</p>
               </div>
             </div>
@@ -263,9 +182,7 @@
               />
               <hr class="team__swiper-slide-hr" />
               <div class="team__swiper-slide-info">
-                <p class="team__swiper-slide-name">
-                  Dr Fulano da Silva
-                </p>
+                <p class="team__swiper-slide-name">Dr Fulano da Silva</p>
                 <p class="team__swiper-slide-role">Odontologia</p>
               </div>
             </div>
@@ -278,9 +195,7 @@
               />
               <hr class="team__swiper-slide-hr" />
               <div class="team__swiper-slide-info">
-                <p class="team__swiper-slide-name">
-                  Dr Fulano da Silva
-                </p>
+                <p class="team__swiper-slide-name">Dr Fulano da Silva</p>
                 <p class="team__swiper-slide-role">Odontologia</p>
               </div>
             </div>
@@ -293,9 +208,7 @@
               />
               <hr class="team__swiper-slide-hr" />
               <div class="team__swiper-slide-info">
-                <p class="team__swiper-slide-name">
-                  Dr Fulano da Silva
-                </p>
+                <p class="team__swiper-slide-name">Dr Fulano da Silva</p>
                 <p class="team__swiper-slide-role">Odontologia</p>
               </div>
             </div>
@@ -304,17 +217,55 @@
         </div>
       </section>
 
+      <section class="cards">
+        <div class="cards__header">
+          <div class="swiper-button-next cards__button-next"></div>
+          <h2 class="cards__title">Convênios atendidos</h2>
+          <div class="swiper-button-prev cards__button-prev"></div>
+        </div>
+
+        <p class="cards__description"></p>
+
+        <div class="swiper cards__swiper">
+          <div class="swiper-wrapper cards__swiper-wrapper">
+            <div class="swiper-slide cards__swiper-slide">
+              <img class="cards__swiper-slide-img" src="" alt="" />
+              <h4 class="cards__swiper-slide-title">Convênio X</h4>
+            </div>
+            <div class="swiper-slide cards__swiper-slide">
+              <img class="cards__swiper-slide-img" src="" alt="" />
+              <h4 class="cards__swiper-slide-title">Convênio Y</h4>
+            </div>
+            <div class="swiper-slide cards__swiper-slide">
+              <img class="cards__swiper-slide-img" src="" alt="" />
+              <h4 class="cards__swiper-slide-title">Convênio X</h4>
+            </div>
+            <div class="swiper-slide cards__swiper-slide">
+              <img class="cards__swiper-slide-img" src="" alt="" />
+              <h4 class="cards__swiper-slide-title">Convênio Y</h4>
+            </div>
+            <div class="swiper-slide cards__swiper-slide">
+              <img class="cards__swiper-slide-img" src="" alt="" />
+              <h4 class="cards__swiper-slide-title">Particular</h4>
+            </div>
+            <div class="swiper-slide cards__swiper-slide">
+              <img class="cards__swiper-slide-img" src="" alt="" />
+              <h4 class="cards__swiper-slide-title">Particular</h4>
+            </div>
+          </div>
+          <div class="swiper-pagination cards__pagination"></div>
+        </div>
+      </section>
+
       <section class="schedule schedule--exams">
         <div class="schedule__content">
-          <h3 class="schedule__title">Faça seus exames conosco</h3>
+          <h3 class="schedule__title">Agende sua consulta hoje mesmo</h3>
 
           <p class="schedule__description">
-            O que nos diferencia são os nossos equipamentos de última geração de
-            exames de imagem, que garantem diagnósticos precisos e tratamentos
-            eficazes.
+            é simples e fácil! basta mandar uma mensagem pelo nosso whatsapp
           </p>
 
-          <button class="schedule__button button">Agendar consulta</button>
+          <button class="schedule__button">Agendar consulta</button>
         </div>
 
         <div class="schedule__image">
@@ -322,57 +273,6 @@
             src="#"
             alt="foto de algum equipamento ou paciente fazendo exame"
           />
-        </div>
-      </section>
-
-      <section class="visit">
-        <h2 class="visit__title">Venha nos visitar</h2>
-
-        <p class="visit__paragraph">
-          Agende sua consulta hoje e experimente a diferença que o Instituto
-          Hera pode fazer na sua saúde oral e geral.
-        </p>
-
-        <div class="contact">
-          <ul class="contact__container">
-            <li class="contact__item">
-              <img class="contact__image" src="#" alt="" />
-              <div class="contact__text">
-                <span class="contact__span">Endereço</span>
-                <p class="contact__dado">Rua lorem ipsum, 58</p>
-              </div>
-            </li>
-
-            <li class="contact__item">
-              <img class="contact__image" src="#" alt="" />
-              <div class="contact__text">
-                <span class="contact__span">Telefone</span>
-                <p class="contact__dado">00 0000 0000</p>
-              </div>
-            </li>
-
-            <li class="contact__item">
-              <img class="contact__image" src="#" alt="" />
-              <div class="contact__text">
-                <span class="contact__span">Horário de atendimento</span>
-                <p class="contact__dado">Segunda à Sexta</p>
-                <p class="contact__dado">08h - 12h</p>
-                <p class="contact__dado">13h - 18h</p>
-              </div>
-            </li>
-          </ul>
-
-          <iframe
-            class="contact__map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412505.2712395121!2d-115.4551958687196!3d36.12522845607396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV%2C%20EUA!5e0!3m2!1spt-PT!2sbr!4v1677613686302!5m2!1spt-PT!2sbr"
-            width="488"
-            height="400"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          >
-          </iframe>
         </div>
       </section>
     </main>
@@ -438,8 +338,8 @@
 
       <span class="endpage__end">CNPJ E RAZÃO SOCIAL</span>
     </footer>
+
     <script src="assets/js/menuHamburger.js"></script>
-    <script src="assets/js/menu__submenu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".cards__swiper", {
