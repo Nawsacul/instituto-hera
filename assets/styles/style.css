@@ -41,6 +41,12 @@ button {
   border-style: none;
 }
 
-/* section {
-  padding: 0 5.625rem;
-} */
+.button:hover {
+  background: var(--secundaria400);
+  color: var(--primaria);
+}
+
+.button:active {
+  background: var(--secundaria700);
+  color: var(--primaria);
+}

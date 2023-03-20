@@ -116,3 +116,9 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 581px) and (max-width: 710px) {
+  .contact {
+    flex-direction: column;
+  }
+}

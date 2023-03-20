@@ -43,12 +43,19 @@
         </label>
 
         <ul class="navbar__menu navbar__menu--hidden">
-          <li><a class="menu__link" href="#">ESPECIALIDADES</a></li>
-          <li><a class="menu__link" href="#">RESULTADOS</a></li>
-          <li><a class="menu__link" href="#">EXAMES</a></li>
-          <li><a class="menu__link" href="#">SOBRE</a></li>
-          <li><a class="menu__link" href="#">CONTATO</a></li>
-          <li>
+          <li class="menu__item menu__item--especialidades">
+            <button class="menu__link menu__link--especialidades">ESPECIALIDADES</button>
+
+            <div class="menu__submenu">
+             <a class="menu__submenu-link" href="#">MEDICINA</a>
+             <a class="menu__submenu-link" href="#">ODONTOLOGIA</a>
+            </div>
+          </li>
+          <li class="menu__item"><a class="menu__link" href="#">RESULTADOS</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">EXAMES</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">SOBRE</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">CONTATO</a></li>
+          <li class="menu__item">
             <a class="menu__link menu__link--agendar" href="#">AGENDAR</a>
           </li>
         </ul>
@@ -129,7 +136,7 @@
             Agende tudo pelo whatsapp, consultas à partir de R$xx,xx
           </p>
 
-          <button class="schedule__button price__button">
+          <button class="schedule__button price__button button">
             Agendar horário
           </button>
         </div>
@@ -299,7 +306,7 @@
             eficazes.
           </p>
 
-          <button class="schedule__button">Agendar consulta</button>
+          <button class="schedule__button button">Agendar consulta</button>
         </div>
 
         <div class="schedule__image">
@@ -424,6 +431,7 @@
       <span class="endpage__end">CNPJ E RAZÃO SOCIAL</span>
     </footer>
     <script src="assets/js/menuHamburger.js"></script>
+    <script src="assets/js/menu__submenu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".cards__swiper", {

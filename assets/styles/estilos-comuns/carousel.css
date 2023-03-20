@@ -30,7 +30,7 @@
   position: inherit;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   :root {
     --swiper-pagination-bottom: -2px;
   }

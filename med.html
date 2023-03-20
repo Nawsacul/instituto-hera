@@ -39,12 +39,19 @@
         </label>
 
         <ul class="navbar__menu navbar__menu--hidden">
-          <li><a class="menu__link" href="#">ESPECIALIDADES</a></li>
-          <li><a class="menu__link" href="#">RESULTADOS</a></li>
-          <li><a class="menu__link" href="#">EXAMES</a></li>
-          <li><a class="menu__link" href="#">SOBRE</a></li>
-          <li><a class="menu__link" href="#">CONTATO</a></li>
-          <li>
+          <li class="menu__item menu__item--especialidades">
+            <button class="menu__link menu__link--especialidades">ESPECIALIDADES</button>
+
+            <div class="menu__submenu">
+             <a class="menu__submenu-link" href="#">MEDICINA</a>
+             <a class="menu__submenu-link" href="#">ODONTOLOGIA</a>
+            </div>
+          </li>
+          <li class="menu__item"><a class="menu__link" href="#">RESULTADOS</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">EXAMES</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">SOBRE</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">CONTATO</a></li>
+          <li class="menu__item">
             <a class="menu__link menu__link--agendar" href="#">AGENDAR</a>
           </li>
         </ul>
@@ -177,5 +184,6 @@
     </footer>
 
     <script src="assets/js/menuHamburger.js"></script>
+    <script src="assets/js/menu__submenu.js"></script>
   </body>
 </html>

@@ -78,9 +78,13 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 581px) and (max-width: 1023px) {
+  .hero {
+    padding-top: 0;
+  }
+
   .hero__container {
-    padding: 10.075rem 0 2rem;
+    padding: 2rem 0;
   }
 
   .hero__content {

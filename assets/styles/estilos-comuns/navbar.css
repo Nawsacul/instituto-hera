@@ -6,7 +6,7 @@
   width: 100%;
   background: var(--primaria);
   top: 0;
-  z-index: 999;
+  z-index: 1000;
   padding: 16px 88px;
   /* Drop Shadow 30 */
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
@@ -26,17 +26,66 @@
   gap: 24px;
 }
 
-.menu__link {
+.menu__item--especialidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: relative; */
+}
+
+.menu__item--especialidades::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  background-color: var(--primaria);
+  top: 81px;
+  z-index: 1001;
+}
+
+.menu__link,
+.menu__submenu-link {
   color: var(--secundaria900);
   font-weight: 400;
   font-size: 14px;
   transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu__link:hover {
+.menu__link:hover,
+.menu__submenu-link:hover {
   color: var(--terciaria);
   font-weight: 700;
   transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu__link--especialidades {
+  position: relative;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.menu__link--especialidades-ativo {
+  color: var(--terciaria);
+  font-weight: 700;
+  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu__link--especialidades::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 4px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid var(--secundaria900);
+}
+
+.menu__link--especialidades:hover::after {
+  border-top: 4px solid var(--terciaria);
 }
 
 .menu__link--agendar {
@@ -51,10 +100,42 @@
   line-height: 120%;
 }
 
-.menu__link--agendar:hover {
-  background: var(--secundaria700);
-  color: var(--primaria);
+/* Parte do DROPDOWN do button ESPECIALIDADES */
+
+.menu__submenu {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  position: absolute;
+  top: 87.4px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  z-index: 1000;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out 0.1s, opacity 0.2s ease-in-out 0.1s;
+  filter: blur(1px);
 }
+
+.menu__submenu-item {
+  background: var(--primaria);
+}
+
+.menu__submenu-link {
+  text-align: center;
+  padding: 24px 16px;
+  background: var(--primaria);
+}
+
+.menu__submenu--open {
+  visibility: initial;
+  transform: scaleY(1);
+  filter: blur(0);
+  opacity: 1;
+  transition: transform 0.3s ease-in-out 0.1s, opacity 0.2s ease-in-out 0.1s;
+}
+
+/* Parte do Menu HAMBURGER, esconder ele em telas maiores */
 
 .hamburger {
   visibility: hidden;
@@ -81,6 +162,7 @@
     transform: scaleY(0);
     transform-origin: top;
     transition: transform 0.3s ease-in-out 0.1s, opacity 0.2s ease-in-out 0.1s;
+    filter: blur(1px);
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -91,7 +173,6 @@
     /* height: 402px; */
     background-color: #ffffff;
     z-index: 9999;
-    filter: blur(1px);
   }
 
   .navbar__menu--hidden {
@@ -101,7 +182,9 @@
   .menu__item {
     width: 100%;
   }
-
+  .menu__item--especialidades::before {
+    visibility: hidden;
+  }
   .menu__link {
     display: block;
     text-align: center;
@@ -121,15 +204,55 @@
     color: var(--primaria);
   }
 
+  .menu__link--agendar:hover {
+    background: var(--secundaria400);
+    color: var(--primaria);
+  }
+
   .navbar__menu--open {
     transform: scaleY(1);
     filter: blur(0);
     opacity: 1;
   }
+
+  /* Especialidades dropdown */
+
+  .menu__submenu {
+    visibility: hidden;
+    max-height: 0;
+    position: unset;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    z-index: 1000;
+    opacity: unset;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.3s ease-in-out;
+    filter: unset;
+  }
+
+  .menu__submenu--mobile-open {
+    visibility: unset;
+    max-height: 140px;
+    position: unset;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    z-index: 1000;
+    visibility: initial;
+    transform: scaleY(1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu__submenu-link {
+    width: 100vw;
+  }
+
+  .menu__submenu-link:hover {
+    background: var(--secundaria50);
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 581px) and (max-width: 1023px) {
   .navbar {
+    position: inherit;
     flex-direction: column;
     align-items: center;
     padding: 32px 99.5px;
@@ -143,5 +266,19 @@
 
   .hamburger {
     display: none !important;
+  }
+
+  .menu__submenu {
+    top: 162.2px;
+  }
+
+  .menu__submenu-link {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__submenu-link {
+    display: block;
   }
 }
