@@ -53,7 +53,7 @@
 @media screen and (max-width: 580px) {
   .hero__container {
     flex-direction: column;
-    padding: 4.388rem 0 0;
+    padding: 120px 0 0;
   }
 
   .hero__content {
