@@ -49,8 +49,7 @@
   transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu__link:hover,
-.menu__submenu-link:hover {
+.menu__link:hover {
   color: var(--terciaria);
   font-weight: 700;
   transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
