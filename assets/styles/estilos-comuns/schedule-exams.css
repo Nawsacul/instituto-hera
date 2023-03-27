@@ -1,0 +1,34 @@
+.schedule--exams{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.schedule__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.schedule__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+}  
+
+.schedule__content--result {
+    max-width: 413px;
+    margin: 0;
+}
+
+.button__result {
+    background: var(--terciaria);
+    border: none;
+    width: 13.625rem; 
+    height: 3.188rem; 
+    border-radius: 0.5rem; /* convertendo 8px para rem */
+    font-weight: 700;
+    color: var(--primaria);
+    cursor: pointer;
+  }
