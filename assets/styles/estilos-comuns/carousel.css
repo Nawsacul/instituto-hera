@@ -30,6 +30,10 @@
   position: inherit;
 }
 
+.swiper-button-lock {
+  display: inherit !important;
+}
+
 @media screen and (max-width: 580px) {
   :root {
     --swiper-pagination-bottom: -2px;

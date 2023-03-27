@@ -12,6 +12,10 @@
   --terciaria: #955731;
 
   --preto: #000000;
+
+  --tamanho-navbar-desktop: 100px;
+  --tamanho-navbar-tablet: 201.2px;
+  --tamanho-navbar-mobile: 121px;
 }
 
 * {
@@ -22,20 +26,29 @@
 }
 
 *::selection {
-    color: var(--primaria);
-    background-color: var(--secundaria400);
+  color: var(--primaria);
+  background-color: var(--secundaria400);
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5 ,h6 {
-  font-family: 'Merriweather', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
 }
 
-span, p, a, button, li {
-  font-family: 'PT Sans', sans-serif;
+span,
+p,
+a,
+button,
+li {
+  font-family: "PT Sans", sans-serif;
 }
 
 body {
@@ -46,9 +59,19 @@ button {
   border-style: none;
 }
 
+.button {
+  color: var(--primaria);
+  background: var(--terciaria);
+  border-radius: 0.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .button:hover {
   background: var(--secundaria400);
   color: var(--primaria) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:active {

@@ -6,7 +6,7 @@ const menuSubmenu = document.querySelector('.menu__submenu');
 
 // Função que alterna a exibição do submenu
 function toggleSubmenu() {
-  // Se a largura da janela for menor ou igual a 580 pixels (mobile)
+  // Se a largura da janela for menor ou igual a 667 pixels (mobile)
   if (window.innerWidth <= 667) {
     // Alterna a classe 'menu__submenu--mobile-open' para exibir ou ocultar o submenu no mobile
     menuSubmenu.classList.toggle('menu__submenu--mobile-open');
@@ -43,13 +43,12 @@ document.addEventListener('click', function (event) {
 
 // Adiciona um evento 'resize' à janela
 window.addEventListener('resize', function () {
-  // Se a largura da janela for maior que 580 pixels (desktop)
+  // Se a largura da janela for maior que 667 pixels (desktop)
   if (window.innerWidth > 667) {
     // Remove a classe 'menu__submenu--mobile-open' para ocultar o submenu no mobile
     menuSubmenu.classList.remove('menu__submenu--mobile-open');
   }
 });
-
 
 let mouseEnteredSubmenu = false;
 
@@ -69,12 +68,16 @@ menuSubmenu.addEventListener('mouseenter', function (event) {
 
 // Adiciona um evento 'mouseleave' ao submenu
 menuSubmenu.addEventListener('mouseleave', function (event) {
+  // Se a largura da janela for maior que 667 pixels (desktop) e o mouse entrou no submenu
   if (window.innerWidth > 667 && mouseEnteredSubmenu) {
+    // Chama a função 'closeSubmenu' para fechar o submenu
     closeSubmenu();
   }
 });
 
 // Adiciona um evento 'scroll' à janela
 window.addEventListener('scroll', function () {
+  // Chama a função 'closeSubmenu' para fechar o submenu ao rolar a página
   closeSubmenu();
 });
+

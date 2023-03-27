@@ -35,22 +35,22 @@
 }
 
 .medcard__doc-title {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 120%;
 }
 
 .medcard__doc-subtitle {
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 16px;
   padding: 16px 0 24px;
-  line-height: 29px;
+  line-height: 120%;
 }
 
 .medcard__doc-details {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 16px;
+  line-height: 120%;
 }
 
 .medcard:nth-child(even) {

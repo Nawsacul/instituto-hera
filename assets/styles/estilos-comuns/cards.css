@@ -105,8 +105,3 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .cards__header {
-    justify-content: center;
-  }
-}

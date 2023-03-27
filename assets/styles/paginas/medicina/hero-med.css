@@ -1,29 +1,29 @@
 .hero-med__container {
   display: flex;
   flex-direction: column;
-  margin-top: 76.4px;
-  padding: 72px 88px;
+  align-items: flex-start;
+  padding: calc(var(--tamanho-navbar-desktop) + 72px) 88px 72px;
 }
 
 .hero-med__title {
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 120%;
+  color: var(--secundaria900);
 }
 
 .hero-med__description-text {
   align-self: flex-end;
   width: 416px;
-  margin-top: 2.5px;
-  line-height: 19px;
-  color: #8e8b8b;
+  margin: .5px 0 1.5px;
+  color: var(--secundaria900);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
 }
 
 .hero-med__button {
   padding: 16px 24px;
-  background: #d9d9d9;
-  border-radius: 8px;
-  font-weight: 400;
-  width: 170px;
 }
 
 @media screen and (max-width: 500px) {

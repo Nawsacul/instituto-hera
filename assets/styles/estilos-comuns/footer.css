@@ -19,7 +19,13 @@
 .endpage__link {
   color: var(--secundaria900);
   font-size: 0.875rem;
-  line-height: 16.8px;
+  line-height: 120%;
+  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.endpage__link:hover {
+  color: var(--terciaria);
+  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .endpage__link--agendar {
@@ -39,6 +45,20 @@
   height: 1.125em;
 }
 
+.endpage__icon {
+  fill: var(--terciaria);
+  transition: fill 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.endpage__icon:hover {
+  fill: var(--secundaria400);
+  transition: fill 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.endpage__icon:active {
+  fill: var(--secundaria700);
+}
+
 .endpage__end {
   font-size: 14px;
   color: var(--secundaria900);
@@ -56,12 +76,12 @@
     justify-content: center;
   }
 
-  .endpage__text {
+  .endpage__item {
     font-size: 1rem;
     padding: 0.313rem 0.625rem;
   }
 
-  .endpage__text--agendar {
+  .endpage__item--agendar {
     padding: 0.313rem 0.625rem;
   }
 

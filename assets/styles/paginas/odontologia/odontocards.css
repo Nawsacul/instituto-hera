@@ -55,7 +55,7 @@
 
 .odontocard:nth-child(even) {
   flex-direction: row-reverse;
-  background: #ffffff;
+  background: var(--primaria);
 }
 
 @media screen and (max-width: 500px) {
@@ -91,10 +91,6 @@
 
   .odontocard {
     width: 704px;
-  }
-
-  .hero-odonto__container {
-    margin-top: 187px;
   }
 
   .odontocard__line {

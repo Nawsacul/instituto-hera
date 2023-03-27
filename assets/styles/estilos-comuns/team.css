@@ -21,6 +21,7 @@
 .team__title {
   font-size: 2.688rem;
   font-weight: 400;
+  color: var(--secundaria900);
 }
 
 /* clinicalStaff HOME */

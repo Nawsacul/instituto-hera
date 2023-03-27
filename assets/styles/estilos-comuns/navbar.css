@@ -14,8 +14,8 @@
 
 .navbar__logo {
   display: block;
-  /* background-color: #d9d9d9; */
-  border-radius: 0.5rem; /* convertendo 8px para rem */
+  width: 124px;
+  height: 84px;
 }
 
 .navbar__menu {
@@ -37,7 +37,7 @@
   width: 100%;
   height: 8px;
   background-color: var(--primaria);
-  top: 117px;
+  top: calc(var(--tamanho-navbar-desktop) - 8px);
   z-index: 1001;
 }
 
@@ -46,13 +46,14 @@
   color: var(--secundaria900);
   font-weight: 400;
   font-size: 14px;
-  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu__link:hover, .menu__submenu-link:hover {
+.menu__link:hover,
+.menu__submenu-link:hover {
   color: var(--terciaria);
   font-weight: 700;
-  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__link--especialidades {
@@ -68,7 +69,7 @@
 .menu__link--especialidades-ativo {
   color: var(--terciaria);
   font-weight: 700;
-  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__link--especialidades::after {
@@ -97,6 +98,7 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 120%;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Parte do DROPDOWN do button ESPECIALIDADES */
@@ -106,7 +108,7 @@
   flex-direction: column;
   visibility: hidden;
   position: absolute;
-  top: 125px;
+  top: calc(var(--tamanho-navbar-desktop) - 1px);
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
   z-index: 1000;
   opacity: 0;
@@ -150,6 +152,11 @@
   .navbar {
     justify-content: space-between;
     padding: 8px 16px;
+  }
+
+  .navbar__logo {
+    width: 156px;
+    height: 105px;
   }
 
   .navbar__hamburger {
@@ -255,7 +262,12 @@
     flex-direction: column;
     align-items: center;
     padding: 8px 99.5px 24px;
-    gap: 32px;
+    gap: 8px;
+  }
+
+  .navbar__logo {
+    width: 164px;
+    height: 110px;
   }
 
   .hamburger {
@@ -263,11 +275,11 @@
   }
 
   .menu__item--especialidades::before {
-    top: 217px; 
+    top: calc(var(--tamanho-navbar-tablet) - 8px);
   }
 
   .menu__submenu {
-    top: 224px;
+    top: calc(var(--tamanho-navbar-tablet) - 1px);
   }
 
   .menu__submenu-link {
