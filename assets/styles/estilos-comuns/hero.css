@@ -34,8 +34,11 @@
 .content__button {
   background: var(--terciaria);
   border: none;
-  width: 10.625rem; /* convertendo 170px para rem */
-  height: 3.188rem; /* convertendo 51px para rem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 159px;
+  height: 51px;
   margin-top: 2.5rem; /* convertendo 40px para rem */
   border-radius: 0.5rem; /* convertendo 8px para rem */
   font-weight: 700;
