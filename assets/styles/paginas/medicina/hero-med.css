@@ -26,27 +26,25 @@
   padding: 16px 24px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 580px) {
   .hero-med__container {
-    margin: 108.4px 0 32px;
-    padding: 32px 16px;
+    padding: calc(var(--tamanho-navbar-mobile) + 64px) 16px 64px;
   }
 
   .hero-med__description-text {
-    margin: 32px 0 40px;
     width: 328px;
     align-self: flex-start;
+    margin: 32px 0 40px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .hero-med__container {
-    margin-top: 172px;
     padding: 64px 32px;
   }
 
   .hero-med__description-text {
-    margin: 4.5px 0 0;
+    width: 342px;
     align-self: flex-end;
   }
 }

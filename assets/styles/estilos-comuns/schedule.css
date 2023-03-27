@@ -8,7 +8,7 @@
 }
 
 .schedule--resultados {
-  padding: 11.875rem 5.5rem 4rem;
+  padding: calc(var(--tamanho-navbar-desktop) + 4rem) 5.5rem 4rem;
 }
 
 .schedule__content {
@@ -67,8 +67,12 @@
   /* Página resultados */
 
   .schedule--resultados {
-    margin-top: 7.875rem;
-    padding: 4rem 1rem;
+    padding: calc(var(--tamanho-navbar-mobile) + 64px) 1rem 32px;
+    margin: 0;
+  }
+
+  .schedule--resultados .schedule__content {
+    margin: 0;
   }
 
   .schedule--resultados .schedule__image {

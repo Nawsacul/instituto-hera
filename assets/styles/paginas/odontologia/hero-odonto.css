@@ -15,7 +15,7 @@
 .hero-odonto__description-text {
   align-self: flex-end;
   width: 416px;
-  margin: 0.5px 0 1.5px;
+  margin: .5px 0 1.5px;
   color: var(--secundaria900);
   font-weight: 400;
   font-size: 16px;
@@ -26,27 +26,25 @@
   padding: 16px 24px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 580px) {
   .hero-odonto__container {
-    margin: 108.4px 0 32px;
-    padding: 32px 16px;
+    padding: calc(var(--tamanho-navbar-mobile) + 64px) 16px 64px;
   }
 
   .hero-odonto__description-text {
-    margin: 32px 0 40px;
     width: 328px;
     align-self: flex-start;
+    margin: 32px 0 40px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .hero-odonto__container {
-    margin-top: 172px;
     padding: 64px 32px;
   }
 
   .hero-odonto__description-text {
-    margin: 4.5px 0 0;
+    width: 342px;
     align-self: flex-end;
   }
 }

@@ -46,14 +46,14 @@
   color: var(--secundaria900);
   font-weight: 400;
   font-size: 14px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__link:hover,
 .menu__submenu-link:hover {
   color: var(--terciaria);
   font-weight: 700;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__link--especialidades {
@@ -69,7 +69,7 @@
 .menu__link--especialidades-ativo {
   color: var(--terciaria);
   font-weight: 700;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__link--especialidades::after {
@@ -98,7 +98,7 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 120%;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Parte do DROPDOWN do button ESPECIALIDADES */

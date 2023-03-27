@@ -65,13 +65,13 @@ button {
   border-radius: 0.5rem;
   font-weight: 700;
   line-height: 120%;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover {
   background: var(--secundaria400);
   color: var(--primaria) !important;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:active {
