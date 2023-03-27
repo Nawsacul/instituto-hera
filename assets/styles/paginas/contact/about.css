@@ -1,70 +1,76 @@
-.wpp__button {
-  font-weight: 700;
-  border: none;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 0.7rem;
-  background-color:#C0C0C0;
-  height: 3.5rem;
-  width: 50rem;
-  margin-right: 13rem;
-  cursor: pointer;
-}
-
-.wpp__button:hover {
-  background-color: #2EE59D;
-  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-  transform: translateY(-7px);
-}
-
 .visit {
-  background-color: white;
-}
-
-.contact__container {
-  width: 26.37rem;
-  height: 28.125rem;
-  gap: 5rem;
+  background-color: var(--secundaria50);
+  padding: 72px 88px 64px;
 }
 
 .contact__title {
-  font-size: 3rem;
-  padding: 2.5rem;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 120%;
+  color: var(--secundaria900);
 }
 
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .wpp__button {
-    width: 20rem;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .contact__container {
-    width: 19.37rem;
-  }
-  
-  .contact__map {
-    width: 25rem;
-  }
+.contact {
+  margin-top: 32px;
 }
 
-/* Tablet */
-@media (min-width: 540px) and (max-width: 767px) {
-  .wpp__button {
-    width: 15rem;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .contact__container {
-    width: 25rem;
+.contact__container {
+  padding: 40px 32px;
+  gap: 48px;
+}
+
+.contact__image {
+  align-self: flex-start;
+}
+
+.contact__dado--numero {
+  padding-bottom: 24px;
+}
+
+.contact__button {
+  padding: 16px 24px;
+}
+
+.contact__map {
+  width: 488px;
+  height: 471px;
+}
+
+@media screen and (max-width: 580px) {
+  .visit {
+    padding: 32px 16px;
   }
 
   .contact {
-    flex-direction: column;
+    gap: 16px;
   }
-  
+
+  .contact__container {
+    max-width: 326px;
+  }
+
+  .contact__title {
+    font-size: 34px;
+  }
+
   .contact__map {
-    width: 25rem;
+    width: 326px;
+    height: 455px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .visit {
+    padding: 72px 32px 64px;
+  }
+
+  .contact {
+    margin-top: 64px;
+  }
+
+  .contact__map {
+    width: 344px;
+    height: 471px;
   }
 }
