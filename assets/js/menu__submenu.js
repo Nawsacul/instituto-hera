@@ -50,3 +50,31 @@ window.addEventListener('resize', function () {
   }
 });
 
+
+let mouseEnteredSubmenu = false;
+
+// Função para fechar o submenu
+function closeSubmenu() {
+  menuSubmenu.classList.remove('menu__submenu--open');
+  menuSubmenu.classList.remove('menu__submenu--mobile-open');
+  especialidadesButton.classList.remove('menu__link--especialidades-ativo');
+}
+
+// Adiciona um evento 'mouseenter' ao submenu
+menuSubmenu.addEventListener('mouseenter', function (event) {
+  if (window.innerWidth > 667) {
+    mouseEnteredSubmenu = true;
+  }
+});
+
+// Adiciona um evento 'mouseleave' ao submenu
+menuSubmenu.addEventListener('mouseleave', function (event) {
+  if (window.innerWidth > 667 && mouseEnteredSubmenu) {
+    closeSubmenu();
+  }
+});
+
+// Adiciona um evento 'scroll' à janela
+window.addEventListener('scroll', function () {
+  closeSubmenu();
+});

@@ -21,6 +21,11 @@
   font-size: 1rem;
 }
 
+*::selection {
+    color: var(--primaria);
+    background-color: var(--secundaria400);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -43,7 +48,7 @@ button {
 
 .button:hover {
   background: var(--secundaria400);
-  color: var(--primaria);
+  color: var(--primaria) !important;
 }
 
 .button:active {
