@@ -51,7 +51,7 @@
   .schedule {
     flex-direction: column;
     padding: 0;
-    margin-top: 4rem;
+    padding-top: 4rem;
     align-items: inherit;
   }
 

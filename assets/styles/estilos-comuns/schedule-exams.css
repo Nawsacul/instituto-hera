@@ -1,0 +1,72 @@
+.schedule--exams{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E5EEE5;
+}
+
+.schedule__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 24px;
+    max-width: 416px;
+}
+
+.schedule__description--result {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 24px;
+    max-width: 416px;
+    padding-top: 24px;
+    padding-bottom: 54px;
+}
+
+.schedule__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+}  
+
+
+.button__result {
+    background: var(--terciaria);
+    border: none;
+    width: 13.625rem; 
+    height: 3.188rem; 
+    border-radius: 0.5rem; /* convertendo 8px para rem */
+    font-weight: 700;
+    color: var(--primaria);
+    cursor: pointer;
+}
+
+.schedule__content--result {
+    max-width: 413px;
+    margin: 0;
+}
+
+@media screen and (max-width: 580px) {
+   
+    .schedule__description {
+        font-size: 16px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .schedule__content--result {
+        margin: 0 1rem 2rem;
+    }
+
+    .schedule__description--result {
+        font-size: 16px;
+        padding-top: 24px;
+        padding-bottom: 56px;
+    }
+
+    .schedule__content--result {
+        padding-top: 32px;
+    }
+
+}
