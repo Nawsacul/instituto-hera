@@ -21,7 +21,7 @@
   font-size: 3.063rem; /* convertendo 48px para rem */
   max-width: 26rem; /* convertendo 416px para rem */
   margin-bottom: 0.5rem; /* convertendo 8px para rem */
-  line-height: 58.8px;
+  line-height: 120%;
 }
 
 .content__description {
