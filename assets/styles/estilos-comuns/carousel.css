@@ -30,6 +30,11 @@
   position: inherit;
 }
 
+.swiper-wrapper__center {
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .swiper-button-lock {
   display: inherit !important;
 }
@@ -59,8 +64,8 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .swiper-wrapper {
     justify-content: center;
   }
-}
+} */

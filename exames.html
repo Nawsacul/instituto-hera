@@ -241,59 +241,7 @@
     <script src="assets/js/menuHamburger.js"></script>
     <script src="assets/js/menu__submenu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".cards__swiper", {
-        slidesPerView: "auto",
-        spaceBetween: 16,
-        cssMode: true,
-        navigation: {
-          nextEl: ".cards__button-next",
-          prevEl: ".cards__button-prev",
-        },
-        pagination: {
-          el: ".cards__pagination",
-          clickable: true,
-          // dynamicBullets: true,
-        },
-        breakpoints: {
-          768: {},
-          1024: {
-            enabled: true,
-          },
-          1440: {
-            enabled: false,
-          },
-          1920: {
-            enabled: false,
-          },
-        },
-      });
-
-      var swiper = new Swiper(".team__swiper", {
-        slidesPerView: "auto",
-        spaceBetween: 16,
-        cssMode: true,
-        navigation: {
-          nextEl: ".team__button-next",
-          prevEl: ".team__button-prev",
-        },
-        pagination: {
-          el: ".team__pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          768: {},
-          1024: {
-            enabled: true,
-          },
-          1440: {
-            enabled: true,
-          },
-          1920: {
-            enabled: false,
-          },
-        },
-      });
-    </script>
+    <script src="assets/js/verifica_init_resize.js"></script>
+    <script src="assets/js/inicializadorSwiperCards.js"></script>
   </body>
 </html>

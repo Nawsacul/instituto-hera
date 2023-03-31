@@ -1,9 +1,9 @@
 .opinion {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   padding: 32px 88px;
-  gap: 16px;
+  gap: 32px;
 }
 
 .opinion__text-container {
@@ -28,13 +28,6 @@
   color: var(--secundaria900);
 }
 
-.opinion__wpp {
-  padding: 24px 16px;
-  background: var(--primaria);
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-  border-radius: 16px;
-}
-
 .wpp__button {
   display: flex;
   justify-content: center;
@@ -50,16 +43,9 @@
     padding: 32px 16px;
     gap: 40px;
   }
-
-  .opinion__wpp {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    max-width: 346px;
-    padding: 0;
-  }
-
+  
   .wpp__button {
+    align-self: flex-start;
     width: 188px;
     height: 51px;
   }
