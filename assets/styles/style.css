@@ -41,6 +41,7 @@ h4,
 h5,
 h6 {
   font-family: "Merriweather", serif;
+  line-height: 120%;
 }
 
 span,
@@ -49,6 +50,7 @@ a,
 button,
 li {
   font-family: "PT Sans", sans-serif;
+  line-height: 120%;
 }
 
 body {
