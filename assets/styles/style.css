@@ -42,6 +42,7 @@ h5,
 h6 {
   font-family: "Merriweather", serif;
   line-height: 120%;
+  color: var(--secundaria900);  
 }
 
 span,
@@ -51,6 +52,7 @@ button,
 li {
   font-family: "PT Sans", sans-serif;
   line-height: 120%;
+  color: var(--secundaria900);
 }
 
 body {
