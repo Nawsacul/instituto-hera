@@ -1,72 +1,54 @@
-.schedule--exams{
-    display: flex;
-    justify-content: space-around;
+.schedulev2--exams{
+    display: grid;
     align-items: center;
     background-color: #E5EEE5;
+    grid-template-columns: 1fr 1fr;
+    padding: 72px 88px;
 }
 
-.schedule__description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.schedulev2__title {
+    font-size: 43px;
+    font-weight: 400;
+    max-width: 344px;
+}
+
+.schedulev2__description {
+    justify-self: end;
     font-size: 24px;
-    max-width: 416px;
+    max-width: 400px;
+    grid-column: 2;
+    grid-row: 1 / 3;
 }
 
-.schedule__description--result {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 24px;
-    max-width: 416px;
-    padding-top: 24px;
-    padding-bottom: 54px;
+.schedulev2__button {
+    margin-top: 40px;
+    height: 51px;
+    width: 161px;
 }
 
-.schedule__content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 40px;
-}  
-
-
-.button__result {
-    background: var(--terciaria);
-    border: none;
-    width: 13.625rem; 
-    height: 3.188rem; 
-    border-radius: 0.5rem; /* convertendo 8px para rem */
-    font-weight: 700;
-    color: var(--primaria);
-    cursor: pointer;
-}
-
-.schedule__content--result {
-    max-width: 413px;
-    margin: 0;
+.schedule__button {
+    width: 223px;
 }
 
 @media screen and (max-width: 580px) {
    
-    .schedule__description {
+    .schedulev2--exams {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 64px 16px ;
+    }
+
+    .schedulev2__title {
+        font-size: 34px;
+    }
+    
+    .schedulev2__description {
         font-size: 16px;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        max-width: 328px;
     }
 
-    .schedule__content--result {
-        margin: 0 1rem 2rem;
+    .schedulev2__button {
+        margin-top: 0px;
     }
-
-    .schedule__description--result {
-        font-size: 16px;
-        padding-top: 24px;
-        padding-bottom: 56px;
-    }
-
-    .schedule__content--result {
-        padding-top: 32px;
-    }
-
 }
