@@ -192,6 +192,7 @@
     visibility: hidden;
   }
   .menu__link {
+    background: var(--primaria);
     display: block;
     text-align: center;
     padding: 24px 0;
