@@ -43,7 +43,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 581px) and (max-width: 1023px) {
   .sobre-text {
     flex-direction: row;
     padding: 64px 32px;
