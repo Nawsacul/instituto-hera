@@ -37,7 +37,7 @@
 /* Serviços HOME */
 
 .cards__swiper {
-  height: 16.25rem;
+  height: 16.5rem;
 }
 
 .cards__swiper-slide {
@@ -46,20 +46,19 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   align-items: end;
-  width: 12.5rem !important;
+  width: 12.5rem;
   height: 12.5rem;
   border-radius: 1.5rem;
   /* padding-left: 1.25rem; */
-  padding: 24px 26px 18px 24px;
+  padding: 24px 26px 29px 24px;
   box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.1);
 }
 
 .cards__swiper-slide-img {
   grid-row: 1 / 2;
-  background: #d9d9d9;
   border-radius: 100%;
-  width: 5.303rem;
-  height: 5.303rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .cards__swiper-slide-title {
@@ -89,6 +88,21 @@
   .cards__description {
     margin: 3rem 2rem;
   }
+
+  .cards__swiper {
+    height: calc(16.5rem + 42px);
+  }
+
+  .cards__swiper-slide {
+    width: 242px;
+    height: 242px;
+    padding: 22px 38.72px 36.3px 22px;
+  }
+
+  .cards__swiper-slide-img {
+    width: 102.67px;
+    height: 102.67px;
+  }
 }
 
 @media screen and (min-width: 581px) and (max-width: 1023px) {
@@ -103,5 +117,19 @@
   .cards__description {
     margin: 3rem 2rem;
   }
-}
 
+  .cards__swiper {
+    height: calc(16.5rem + 54px);
+  }
+
+  .cards__swiper-slide {
+    width: 254px;
+    height: 254px;
+    padding: 23.09px 40.64px 38.1px 23.09px;
+  }
+
+  .cards__swiper-slide-img {
+    width: 102.67px;
+    height: 102.67px;
+  }
+}

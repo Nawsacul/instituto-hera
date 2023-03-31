@@ -6,5 +6,5 @@
 @import url(../../estilos-comuns/hero.css);
 @import url(../../estilos-comuns/footer.css);
 @import url(../../estilos-comuns/navbar.css);
-@import url(../../../dist/hambuger/hamburger.css);
-@import url(../../paginas/sobre/hero-sobre.css);
+@import url(../../estilos-comuns/cards-convenio.css);
+@import url(sobre-text.css);

@@ -2,6 +2,7 @@ var swiper2 = new Swiper(".team__swiper", {
     slidesPerView: "auto",
     spaceBetween: 16,
     cssMode: true,
+    grabCursor: true,
     navigation: {
         nextEl: ".team__button-next",
         prevEl: ".team__button-prev",

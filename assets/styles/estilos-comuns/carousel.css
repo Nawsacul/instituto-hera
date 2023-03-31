@@ -3,13 +3,12 @@
   --swiper-pagination-color: var(--secundaria700);
   --swiper-pagination-bullet-size: 1rem;
   --swiper-pagination-bullet-inactive-color: var(--secundaria200);
+  --swiper-pagination-bottom: 0;
   --swiper-pagination-bullet-inactive-opacity: 1;
-  --swiper-navigation-top-offset: 72%;
   --swiper-navigation-sides-offset: 0px;
   --swiper-navigation-color: var(--primaria);
   --swiper-navigation-size: 12px;
   --swiper-navigation-background-size: 2.5rem;
-  --swiper-navigation-top-offset--clinicalStaff: 183%;
 }
 
 /* Parte Geral */
@@ -28,6 +27,7 @@
   height: var(--swiper-navigation-background-size);
   border-radius: 100%;
   position: inherit;
+  margin: auto 0;
 }
 
 .swiper-wrapper__center {
@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 580px) {
   :root {
-    --swiper-pagination-bottom: -2px;
+    --swiper-pagination-bullet-horizontal-gap: 0.8rem;
   }
 
   .swiper-button-next,
@@ -58,9 +58,9 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 350px) {
   :root {
-    --swiper-pagination-bullet-horizontal-gap: 0.75rem;
+    --swiper-pagination-bullet-horizontal-gap: 0.5rem;
   }
 }
 

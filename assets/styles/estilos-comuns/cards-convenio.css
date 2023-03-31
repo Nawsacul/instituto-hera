@@ -1,0 +1,17 @@
+.cards {
+    gap: 64px;
+}
+
+@media screen and (max-width: 580px) {
+  .cards {
+    gap: 64px;
+  }
+
+  .cards__header {
+    justify-content: center;
+  }
+
+  .cards__title {
+    max-width: 328px;
+  }
+}
