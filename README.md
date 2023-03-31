@@ -35,10 +35,10 @@
 <h2><span class="emoji">&#x1F465;</span> Equipe</h2>
 
 <ul>
-	<li>Willian Monteiro - Desenvolvedor</li>
-	<li>Paulo Sampaio - Desenvolvedor</li>
-  	<li>Matheus Gabriel - Desenvolvedor</li>
-  	<li>Gustavo Guga - Desenvolvedor</li>
 	<li>Aline Fabienski- Designer</li>
+  	<li>Gustavo Guga - Desenvolvedor</li>
 	<li>Lucas Queiroz - Gerente de projeto e Desenvolvedor</li>
+  	<li>Matheus Gabriel - Desenvolvedor</li>
+	<li>Paulo Sampaio - Desenvolvedor</li>
+	<li>Willian Monteiro - Desenvolvedor</li>
 </ul>
