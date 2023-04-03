@@ -12,7 +12,7 @@
 }
 
 .schedule__content {
-  max-width: 413px;
+  width: 413px;
 }
 
 .schedule__title {
@@ -57,6 +57,7 @@
 
   .schedule__content {
     margin: 0 1rem 2rem;
+    width: 90%;
   }
 
   .schedule__image {

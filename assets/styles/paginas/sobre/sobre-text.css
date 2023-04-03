@@ -18,12 +18,6 @@
   text-align: justify;
 }
 
-@media screen and (max-width: 329px) {
-  .sobre-text__description {
-    max-width: 283px !important;
-  }
-}
-
 @media screen and (max-width: 580px) {
   .sobre-text {
     flex-direction: column;
@@ -33,12 +27,12 @@
   }
 
   .sobre-text__title {
-    max-width: 283px;
+    width: 100%;
     font-size: 34px;
   }
 
   .sobre-text__description {
-    max-width: 328px;
+    width: 100%;
     margin: 0;
   }
 }
