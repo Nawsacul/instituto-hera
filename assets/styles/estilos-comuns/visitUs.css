@@ -116,8 +116,19 @@
   }
 }
 
-@media screen and (min-width: 581px) and (max-width: 710px) {
+@media screen and (min-width: 581px) and (max-width: 711px) {
   .contact {
     flex-direction: column;
+  }
+
+  .contact__map {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 711px) and (max-width: 1023px) {
+  .contact__map {
+    width: 343px;
+    height: 400px;
   }
 }
