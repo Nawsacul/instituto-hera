@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 580px) {
   :root {
-    --swiper-pagination-bullet-horizontal-gap: 0.8rem;
+    --swiper-pagination-bullet-horizontal-gap: 0.7rem;
   }
 
   .swiper-button-next,
@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
   :root {
     --swiper-pagination-bullet-horizontal-gap: 0.5rem;
   }
