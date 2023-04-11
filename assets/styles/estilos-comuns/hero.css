@@ -13,8 +13,8 @@
 }
 
 .hero__content {
-  margin-left: 5.5rem; /* convertendo 85px para rem */
-  max-width: 50%;
+  margin-left: 5.5rem; /* convertendo 88px para rem */
+  width: 416px;
 }
 
 .content__title {
@@ -28,7 +28,6 @@
 .content__description {
   font-weight: 400;
   color: var(--secundaria900);
-  max-width: 90%; /* convertendo 416px para rem */
   line-height: 19.2px;
 }
 
@@ -49,7 +48,7 @@
 
 .hero__image {
   background-color: #d9d9d9;
-  width: 50%; /* convertendo 510.93px para rem */
+  width: 510.93px; /* convertendo 510.93px para rem */
   height: 22rem; /* convertendo 352px para rem */
   /* margin-right: -90px; */
 }
@@ -104,5 +103,12 @@
 
   .content__title {
     font-size: 2.688rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .hero__image {
+    width: 718.59px;
+    height: 33.94rem;
   }
 }

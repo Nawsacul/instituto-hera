@@ -3,9 +3,9 @@
 .schedule {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 4rem 5.5rem;
-  gap: 17px;
+  gap: 16px;
 }
 
 .schedule--resultados {
@@ -13,7 +13,7 @@
 }
 
 .schedule__content {
-  width: 50%;
+  width: 413px;
 }
 
 .schedule__title {
@@ -42,9 +42,13 @@
   cursor: pointer;
 }
 
+.image-wrapper {
+  display: flex;
+}
+
 .schedule__image {
   background-color: #d9d9d9;
-  width: 50%;
+  width: 412px;
   height: 283.83px;
 }
 
@@ -91,4 +95,10 @@
   /* .schedule__content {
     max-width: 344px;
   } */
+}
+
+@media screen and (min-width: 1025px) {
+  .schedule__image {
+    flex-grow: 1;
+  }
 }
