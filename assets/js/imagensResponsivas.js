@@ -59,7 +59,7 @@ function calculateGap() {
 
         const gap = containerWidth - contentWidth - imageWidth - contentMarginLeft + widthDifference;
 
-        console.log("Gap:", gap);
+        // console.log("Gap:", gap);
 
         scheduleSections.forEach((section) => (section.style.gap = `${gap}px`));
 
