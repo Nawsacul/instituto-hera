@@ -15,7 +15,8 @@
 .schedulev2__description {
   justify-self: end;
   font-size: 24px;
-  width: 416px;
+  width: 100%;
+  max-width: 416px;
   grid-column: 2;
   grid-row: 1 / 3;
 }

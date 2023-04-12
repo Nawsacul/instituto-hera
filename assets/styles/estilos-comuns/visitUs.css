@@ -107,7 +107,7 @@
 
   .contact__container {
     padding: 2.5rem 1rem;
-    min-width: 100%;
+    width: 100%;
     max-width: 327px;
   }
 
