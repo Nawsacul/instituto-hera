@@ -67,3 +67,18 @@
     flex-grow: 1;
   }
 }
+
+@media screen and (min-width: 1025px) {
+  .sobre-text__container-title {
+    width: calc(50vw - 5.5rem);
+  }
+
+  .sobre-text__title {
+    width: 100%;
+  }
+
+  .sobre-text__description {
+    width: calc(50vw - 5.5rem);
+    flex-grow: 0;
+  }
+}

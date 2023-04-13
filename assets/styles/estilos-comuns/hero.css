@@ -116,3 +116,15 @@
     flex-grow: 1;
   }
 }
+
+@media screen and (min-width: 1025px) {
+  .hero__content {
+    width: calc(50vw - 5.5rem);
+    flex: none;
+  }
+
+  .hero__image {
+    width: 50vw;
+    flex-grow: 0;
+  }
+}
