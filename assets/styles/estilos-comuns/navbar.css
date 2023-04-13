@@ -50,7 +50,9 @@
 }
 
 .menu__link:hover,
-.menu__submenu-link:hover {
+.menu__submenu-link:hover,
+.menu__link.active,
+.menu__submenu-link.active {
   color: var(--terciaria);
   font-weight: 700;
   transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -148,7 +150,7 @@
   left: -9999999999999px;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 740px) {
   .navbar {
     justify-content: space-between;
     padding: 8px 16px;
@@ -200,7 +202,7 @@
     line-height: 120%;
   }
 
-  .menu__link:hover {
+  .menu__link:hover, .menu__link.active {
     background: var(--secundaria50);
     font-weight: 700;
   }
@@ -252,12 +254,12 @@
     width: 100vw;
   }
 
-  .menu__submenu-link:hover {
+  .menu__submenu-link:hover, .menu__submenu-link.active {
     background: var(--secundaria50);
   }
 }
 
-@media screen and (min-width: 581px) and (max-width: 1023px) {
+@media screen and (min-width: 741px) and (max-width: 1023px) {
   .navbar {
     position: inherit;
     flex-direction: column;

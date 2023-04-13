@@ -18,7 +18,7 @@ let isHamburgerClicked = false;
 // Função para fechar o menu no mobile
 function closeMenuOnMobile(event) {
   // Verifica se a largura da janela é menor que 580px
-  if (window.innerWidth < 580) {
+  if (window.innerWidth < 741) {
     // Remove a classe 'is-active' da label do menu hambúrguer
     minhaLabel.classList.remove('is-active');
     // Remove a classe 'navbar__menu--open' do menu de navegação

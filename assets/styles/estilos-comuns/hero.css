@@ -90,6 +90,8 @@
   }
 }
 
+
+
 @media screen and (min-width: 581px) and (max-width: 1023px) {
   .hero {
     padding-top: 0;
@@ -114,6 +116,12 @@
   .hero__image {
     margin-right: -90px;
     flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .hero {
+    padding-top: var(--tamanho-navbar-mobile);
   }
 }
 
