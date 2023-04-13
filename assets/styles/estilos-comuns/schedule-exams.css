@@ -43,6 +43,10 @@
     padding: 64px 16px;
   }
 
+  .schedulev2__container-title {
+    width: 100%;
+  }
+
   .schedulev2__title {
     font-size: 34px;
   }
