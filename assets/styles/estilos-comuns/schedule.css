@@ -13,7 +13,8 @@
 }
 
 .schedule__content {
-  width: 413px;
+  width: 416px;
+  flex: none;
 }
 
 .schedule__title {
@@ -48,8 +49,9 @@
 
 .schedule__image {
   background-color: #d9d9d9;
-  width: 412px;
-  height: 283.83px;
+  /* width: 412px; */
+  flex-grow: 1;
+  height: auto;
 }
 
 @media screen and (max-width: 580px) {
@@ -63,11 +65,11 @@
   .schedule__content {
     margin: 0 1rem 2rem;
     width: auto;
+    flex: unset;
   }
 
   .schedule__image {
     width: 100%;
-    height: 280px; /* Deixar temporariamente */
   }
 
   /* Página resultados */
@@ -90,15 +92,12 @@
   .schedule {
     padding: 4rem 0 4rem 2rem;
     gap: 17px;
+    overflow-x: hidden;
   }
-
-  /* .schedule__content {
+  
+  .schedule__content {
+    min-width: 223px;
     max-width: 344px;
-  } */
-}
-
-@media screen and (min-width: 1025px) {
-  .schedule__image {
-    flex-grow: 1;
+    flex: unset;
   }
 }
