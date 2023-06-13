@@ -11,12 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/reset.css" />
     <link
       rel="stylesheet"
       href="assets/styles/paginas/odontologia/odonto.css"
     />
+    
     <title>Instituto Hera - Odontologia</title>
   </head>
 
@@ -99,7 +100,7 @@
         <!-- Caixa para designar a seção -->
         <ul class="odontocards__container">
           <!-- Caixa para os cards -->
-          <li class="odontocard">
+          <li data-aos="fade-left" class="odontocard">
             <!-- Card propriamente dito -->
             <div>
               <div
@@ -123,7 +124,7 @@
             </div>
           </li>
 
-          <li class="odontocard">
+          <li data-aos="fade-right" class="odontocard">
             <!-- Card propriamente dito -->
             <div>
               <div
@@ -147,7 +148,7 @@
             </div>
           </li>
 
-          <li class="odontocard">
+          <li data-aos="fade-left" class="odontocard">
             <!-- Card propriamente dito -->
             <div>
               <div
@@ -171,7 +172,7 @@
             </div>
           </li>
 
-          <li class="odontocard">
+          <li data-aos="fade-right" class="odontocard">
             <!-- Card propriamente dito -->
             <div>
               <div
@@ -195,7 +196,7 @@
             </div>
           </li>
 
-          <li class="odontocard">
+          <li data-aos="fade-left" class="odontocard">
             <!-- Card propriamente dito -->
             <div>
               <div
@@ -280,8 +281,12 @@
       <span class="endpage__end">CNPJ E RAZÃO SOCIAL</span>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/menuHamburger.js"></script>
     <script src="assets/js/menu__submenu.js"></script>
     <script src="assets/js/paginaAtiva.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
