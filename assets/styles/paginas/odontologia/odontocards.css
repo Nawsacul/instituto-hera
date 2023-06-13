@@ -16,6 +16,37 @@
   width: 848px;
 }
 
+.odontocard__image-dralberto {
+  background-image: url("../../../img/ATENDIMENTO-DR--ALBERTO-BARRETO.webp");
+}
+
+.odontocard__image-dreurico {
+  background-image: url("../../../img/ATENDIMENTO-DR-EURICO.webp");
+}
+
+.odontocard__image-drmelina {
+  background-image: url("../../../img/ATENDIMENTO-DRA-MELINA-REIS.webp");
+}
+
+.odontocard__image-drvinicius {
+  background-image: url("../../../img/ATENDIMENTO-DR-vinicius.webp");
+}
+
+.odontocard__image {
+  width: 286px;
+  height: 284px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  mix-blend-mode: multiply;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 25%);
+  mask-image: linear-gradient(to top, transparent 0%, black 25%);
+}
+
+.odontocard__image-drdanilo {
+  background-image: url("../../../img/dr-danilo-individual-fundo-removido.webp");
+  background-size: cover;
+}
+
 .odontocard__line {
   border: 1px solid #955731;
   height: 200px;

@@ -16,6 +16,56 @@
   width: 848px;
 }
 
+.medcard__image-draadriana {
+  background-image: url("../../../img/draadriana.webp");
+}
+
+.medcard__image-draallana {
+  background-image: url("../../../img/drallana.webp");
+}
+
+.medcard__image-drabruna {
+  background-image: url("../../../img/drabruna.webp");
+}
+
+.medcard__image-drcesar {
+  background-image: url("../../../img/drcesar.webp");
+}
+
+.medcard__image-draemanuelle {
+  background-image: url("../../../img/draemanuelle.webp");
+}
+
+.medcard__image-drajanailda {
+  background-image: url("../../../img/drajanailda.webp");
+}
+
+.medcard__image-dramariana {
+  background-image: url("../../../img/dramariana.webp");
+}
+
+.medcard__image-dranathassia {
+  background-image: url("../../../img/dranathassia.webp");
+}
+
+.medcard__image-drarenata {
+  background-image: url("../../../img/drarenata.webp");
+}
+
+.medcard__image-drsergio {
+  background-image: url("../../../img/drsergio.webp");
+}
+
+.medcard__image {
+  width: 286px;
+  height: 284px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  mix-blend-mode: multiply;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 25%);
+  mask-image: linear-gradient(to top, transparent 0%, black 25%);
+}
+
 .medcard__line {
   border: 1px solid #955731;
   height: 200px;
