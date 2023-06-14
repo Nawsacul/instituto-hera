@@ -33,7 +33,7 @@
 
 .contact__map {
   width: 488px;
-  height: 471px;
+  height: 545.6px;
 }
 
 @media screen and (max-width: 580px) {
@@ -55,7 +55,6 @@
 
   .contact__map {
     width: 326px;
-    height: 455px;
   }
 }
 
@@ -71,6 +70,5 @@
 
   .contact__map {
     width: 344px;
-    height: 471px;
   }
 }
