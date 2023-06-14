@@ -97,7 +97,7 @@
   .team__swiper-slide {
     width: 242px;
     height: 300px;
-    padding: 64px 32px 32px;
+    padding: 16px 16px;
   }
 
   .team__swiper-slide-hr {
@@ -126,7 +126,7 @@
   .team__swiper-slide {
     width: 163px;
     height: 244px;
-    padding: 32px 16px 30px;
+    padding: 16px 16px;
   }
 
   .team__swiper-slide-img {
