@@ -35,11 +35,11 @@
   background: var(--secundaria50);
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  padding: 49px 19px 17px;
+  padding: 25px 9px;
   align-items: center;
   height: 12.5rem;
   border-radius: 1.5rem;
-  width: 198px;
+  width: 220px;
   height: 270px;
   /* Drop Shadow 32 */
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
@@ -49,13 +49,16 @@
   grid-row: 1 / 2;
   background: transparent;
   justify-self: center;
+  height: 128px;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 25%);
+  mask-image: linear-gradient(to top, transparent 0%, black 25%);
 }
 
 .team__swiper-slide-hr {
   grid-row: 2 / 3;
   border: none;
   border: 1px solid var(--terciaria);
-  margin: 24px 0 8px;
+  margin: 24px 13px 8px;
 }
 
 .team__swiper-slide-info {
