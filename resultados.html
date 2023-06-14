@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
@@ -91,7 +91,7 @@
 
     <main>
       <section class="schedule schedule--resultados">
-        <div class="schedule__content">
+        <div data-aos="zoom-in" data-aos-duration="1000" class="schedule__content">
           <h3 class="schedule__title">
             Receba Seus Resultados de Exames Rapidamente
           </h3>
@@ -105,10 +105,10 @@
           <br>
 
           <ol>
-            <li><b>Realize seu exame no Instituto Hera.</b> Seja um exame médico ou odontológico, nossos profissionais e equipamentos de ponta garantem a precisão dos resultados.</li>
-            <li><b>Anote o número do protocolo.</b> Após a realização do exame, você receberá um número de protocolo. Mantenha-o em mãos.</li>
-            <li><b>Envie-nos uma mensagem.</b> Basta enviar uma mensagem para o nosso número de WhatsApp com o seu número de protocolo.</li>
-            <li><b>Receba seus resultados.</b> Em breve, enviaremos os resultados dos seus exames direto para o seu celular.</li>
+            <li data-aos="fade-right" data-aos-delay="600"><b>Realize seu exame no Instituto Hera.</b> Seja um exame médico ou odontológico, nossos profissionais e equipamentos de ponta garantem a precisão dos resultados.</li>
+            <li data-aos="fade-right" data-aos-delay="1400"><b>Anote o número do protocolo.</b> Após a realização do exame, você receberá um número de protocolo. Mantenha-o em mãos.</li>
+            <li data-aos="fade-right" data-aos-delay="2200"><b>Envie-nos uma mensagem.</b> Basta enviar uma mensagem para o nosso número de WhatsApp com o seu número de protocolo.</li>
+            <li data-aos="fade-right" data-aos-delay="3000"><b>Receba seus resultados.</b> Em breve, enviaremos os resultados dos seus exames direto para o seu celular.</li>
           </ol>
 
           <br>
@@ -121,6 +121,8 @@
         </div>
 
         <img
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
           class="schedule__image responsive-image"
           data-reference-width="412"
           data-reference-height="283.83"
@@ -187,8 +189,15 @@
 
       <span class="endpage__end">Caires Sampaio Medicina Especializada LTDA, CNPJ 36.291.883/0001-83</span>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/menuHamburger.js"></script>
     <script src="assets/js/menu__submenu.js"></script>
     <script src="assets/js/paginaAtiva.js"></script>
+    <script>
+      AOS.init({
+        startEvent: 'DOMContentLoaded',
+        once: true,
+      });
+    </script>
   </body>
 </html>

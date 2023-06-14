@@ -6,6 +6,7 @@
   /* justify-content: space-between; */
   padding: 4rem 5.5rem;
   gap: 16px;
+  overflow: hidden;
 }
 
 .schedule--resultados {

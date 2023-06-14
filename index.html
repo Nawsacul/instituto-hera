@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
@@ -87,7 +87,7 @@
       </nav>
 
       <div class="hero__container container">
-        <div class="hero__content content">
+        <div data-aos="zoom-in" data-aos-duration="1000" class="hero__content content">
           <h1 class="content__title">Bem-vindo ao Instituto Hera</h1>
 
           <p class="content__description">
@@ -98,6 +98,8 @@
         </div>
 
         <img
+          data-aos="fade-left"
+          data-aos-duration="1500"
           loading="lazy"
           class="hero__image responsive-image"
           data-reference-width="510.93"
@@ -122,7 +124,7 @@
 
         <div class="swiper cards__swiper">
           <div class="swiper-wrapper cards__swiper-wrapper">
-            <div class="swiper-slide cards__swiper-slide">
+            <div data-aos="zoom-in" data-aos-duration="500" class="swiper-slide cards__swiper-slide">
               <img
                 loading="lazy"
                 class="cards__swiper-slide-img"
@@ -131,7 +133,7 @@
               />
               <h4 class="cards__swiper-slide-title">Odontologia</h4>
             </div>
-            <div class="swiper-slide cards__swiper-slide">
+            <div data-aos="zoom-in" data-aos-duration="700" class="swiper-slide cards__swiper-slide">
               <img
                 loading="lazy"
                 class="cards__swiper-slide-img"
@@ -140,7 +142,7 @@
               />
               <h4 class="cards__swiper-slide-title">Neurologia</h4>
             </div>
-            <div class="swiper-slide cards__swiper-slide">
+            <div data-aos="zoom-in" data-aos-duration="900" class="swiper-slide cards__swiper-slide">
               <img
                 loading="lazy"
                 class="cards__swiper-slide-img"
@@ -149,7 +151,7 @@
               />
               <h4 class="cards__swiper-slide-title">Tomografia e raio x</h4>
             </div>
-            <div class="swiper-slide cards__swiper-slide">
+            <div data-aos="zoom-in" data-aos-duration="1100" class="swiper-slide cards__swiper-slide">
               <img
                 loading="lazy"
                 class="cards__swiper-slide-img"
@@ -158,7 +160,7 @@
               />
               <h4 class="cards__swiper-slide-title">Psiquiatria</h4>
             </div>
-            <div class="swiper-slide cards__swiper-slide">
+            <div data-aos="zoom-in" data-aos-duration="1300" class="swiper-slide cards__swiper-slide">
               <img
                 loading="lazy"
                 class="cards__swiper-slide-img"
@@ -167,7 +169,7 @@
               />
               <h4 class="cards__swiper-slide-title">Ortopedia</h4>
             </div>
-            <div class="swiper-slide cards__swiper-slide">
+            <div data-aos="zoom-in" data-aos-duration="1500" class="swiper-slide cards__swiper-slide">
               <img
                 loading="lazy"
                 class="cards__swiper-slide-img"
@@ -430,7 +432,7 @@
       </section>
 
       <section class="schedule schedule--exams">
-        <div class="schedule__content">
+        <div data-aos="fade-right" data-aos-duration="1500" class="schedule__content">
           <h3 class="schedule__title">Faça seus exames conosco</h3>
 
           <p class="schedule__description">
@@ -441,6 +443,8 @@
         </div>
 
         <img
+          data-aos="fade-left"
+          data-aos-duration="1500"
           loading="lazy"
           class="schedule__image responsive-image"
           data-reference-width="412"
@@ -461,45 +465,44 @@
           <ul class="contact__container">
             <li class="contact__item">
               <img
-                loading="lazy"
                 class="contact__image"
                 src="assets/img/endereco.svg"
                 alt=""
               />
               <div class="contact__text">
                 <span class="contact__span">Endereço</span>
-                <p class="contact__dado">Rua lorem ipsum, 58</p>
+                <p class="contact__dado">Av. Castro Alves, 103 - Centro, Santo Estêvão - BA, 44190-000</p>
               </div>
             </li>
 
             <li class="contact__item">
               <img
-                loading="lazy"
                 class="contact__image"
                 src="assets/img/telefone.svg"
                 alt=""
               />
               <div class="contact__text">
                 <span class="contact__span">Telefone</span>
-                <p class="contact__dado">00 0000 0000</p>
+                <p class="contact__dado contact__dado--numero">75 99810 1418</p>
               </div>
             </li>
 
             <li class="contact__item">
-              <img
-                loading="lazy" class="contact__image" src="assets/img/horario.svg" alt="" />
+              <img class="contact__image" src="assets/img/horario.svg" alt="" />
               <div class="contact__text">
                 <span class="contact__span">Horário de atendimento</span>
                 <p class="contact__dado">Segunda à Sexta</p>
-                <p class="contact__dado">08h - 12h</p>
-                <p class="contact__dado">13h - 18h</p>
+                <p class="contact__dado">08h - 18h</p>
+                <br>
+                <p class="contact__dado">Sábados</p>
+                <p class="contact__dado">08h - 13h</p>
               </div>
             </li>
           </ul>
 
           <iframe
             class="contact__map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412505.2712395121!2d-115.4551958687196!3d36.12522845607396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV%2C%20EUA!5e0!3m2!1spt-PT!2sbr!4v1677613686302!5m2!1spt-PT!2sbr"
+            src="https://maps.google.com/maps?q=Av. Castro Alves, 103 - Centro, Santo Estêvão - BA, 44190-000&t=&z=17&ie=UTF8&iwloc=&output=embed"
             width="488"
             height="400"
             style="border: 0"
@@ -569,6 +572,7 @@
 
       <span class="endpage__end">Caires Sampaio Medicina Especializada LTDA, CNPJ 36.291.883/0001-83</span>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/menuHamburger.js"></script>
     <script src="assets/js/menu__submenu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -576,5 +580,11 @@
     <script src="assets/js/inicializadorSwiperCards.js"></script>
     <script src="assets/js/inicializadorSwiperTeam.js"></script>
     <script src="assets/js/paginaAtiva.js"></script>
+    <script>
+      AOS.init({
+        startEvent: 'DOMContentLoaded',
+        once: true, // whether animation should happen only once - while scrolling down
+      });
+    </script>
   </body>
 </html>

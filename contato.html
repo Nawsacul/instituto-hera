@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/reset.css" />
     <link rel="stylesheet" href="assets/styles/paginas/contact/contact.css" />
 
@@ -86,7 +86,7 @@
         <h2 class="contact__title">Entre em contato!</h2>
 
         <div class="contact">
-          <ul class="contact__container">
+          <ul data-aos="zoom-in-right" data-aos-delay="500" data-aos-duration="500" class="contact__container">
             <li class="contact__item">
               <img
                 class="contact__image"
@@ -126,6 +126,9 @@
           </ul>
 
           <iframe
+            data-aos="zoom-in-left"
+            data-aos-delay="500"
+            data-aos-duration="500"
             class="contact__map"
             src="https://maps.google.com/maps?q=Av. Castro Alves, 103 - Centro, Santo Estêvão - BA, 44190-000&t=&z=17&ie=UTF8&iwloc=&output=embed"
             width=""
@@ -210,9 +213,15 @@
 
       <span class="endpage__end">Caires Sampaio Medicina Especializada LTDA, CNPJ 36.291.883/0001-83</span>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/menuHamburger.js"></script>
     <script src="assets/js/menu__submenu.js"></script>
     <script src="assets/js/paginaAtiva.js"></script>
+    <script>
+      AOS.init({
+        startEvent: 'DOMContentLoaded',
+        once: true,
+      });
+    </script>
   </body>
 </html>

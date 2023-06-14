@@ -10,7 +10,7 @@
   justify-content: space-between;
   padding: 4rem 0;
   gap: 16px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .hero__content {
