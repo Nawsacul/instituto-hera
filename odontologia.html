@@ -286,7 +286,10 @@
     <script src="assets/js/menu__submenu.js"></script>
     <script src="assets/js/paginaAtiva.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        startEvent: 'DOMContentLoaded',
+        once: true, // whether animation should happen only once - while scrolling down
+      });
     </script>
   </body>
 </html>
